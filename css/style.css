@@ -333,6 +333,8 @@ a {
 #content .news .right {
 	line-height: 48px;
 	float: left !important;
+	width: 965px;
+	overflow: hidden;
 }
 
 #content .news .right ul{
@@ -344,11 +346,12 @@ a {
 }
 
 #content .news .right  ul li:last-child{
-	float: right;
+
 }
 
 #content .news .left {
 	float: left;
+	width: 70px;
 }
 
 #content .news .viewall {
