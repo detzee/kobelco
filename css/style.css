@@ -817,6 +817,26 @@ a{
 	font-weight: bold;
 }
 
+#content .product-detail-content .filter_product span{
+	font-weight: bold;
+	padding: 15px 0;
+	border-bottom: 1px solid #ddd;
+	display: block;
+	font-size: 13px;
+}
+
+#content .product-detail-content .filter_product p{
+    font-size: 12px;
+    line-height: 20px;
+	padding-left: 10px;
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+	margin: 0;
+}
+
+#content .product-detail-content .filter_product ul li{
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+}
 
 
 
