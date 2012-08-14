@@ -863,6 +863,7 @@ Stack trace:
 REQUEST_URI=/yii/kobelco/index.php?r=product/list&category=1
 HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=product/index
 ---
+<<<<<<< HEAD
 2012/08/14 18:00:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'yiikobelco'' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
 Stack trace:
 #0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
@@ -889,4 +890,167 @@ Stack trace:
 #21 C:\wamp\www\yii\kobelco\index.php(13): CApplication->run()
 #22 {main}
 REQUEST_URI=/yii/kobelco/index.php?r=product/list&category=1
+=======
+2012/08/15 01:06:55 [error] [php] Undefined variable: categories (/home/detzee/public_html/yii/kobelco/protected/views/product/index.php:10)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(870): ProductController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/CController.php(783): ProductController->renderPartial()
+#2 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(13): ProductController->render()
+#3 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionIndex()
+#4 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(287): ProductController->runAction()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(266): ProductController->runActionWithFilters()
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): ProductController->run()
+#8 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=product/index
+in /home/detzee/public_html/yii/kobelco/protected/views/product/index.php (10)
+in /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php (13)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/15 01:07:32 [error] [php] Undefined variable: categories (/home/detzee/public_html/yii/kobelco/protected/views/product/index.php:10)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(870): ProductController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/CController.php(783): ProductController->renderPartial()
+#2 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(13): ProductController->render()
+#3 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionIndex()
+#4 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(287): ProductController->runAction()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(266): ProductController->runActionWithFilters()
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): ProductController->run()
+#8 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=product/index
+in /home/detzee/public_html/yii/kobelco/protected/views/product/index.php (10)
+in /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php (13)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/15 01:07:59 [error] [exception.CException] exception 'CException' with message 'Property "ProductController.categories" is not defined.' in /home/detzee/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CComponent->__set('categories', Object(CDbCommand))
+#1 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionIndex()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/index')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/index
+---
+2012/08/15 01:08:22 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "fetchAll".' in /home/detzee/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CComponent->__call('fetchAll', Array)
+#1 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CDbCommand->fetchAll()
+#2 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionIndex()
+#3 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/index')
+#8 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/index
+---
+2012/08/15 01:08:36 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "findAll".' in /home/detzee/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CComponent->__call('findAll', Array)
+#1 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CDbCommand->findAll()
+#2 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionIndex()
+#3 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/index')
+#8 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/index
+---
+2012/08/15 01:08:41 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "getAll".' in /home/detzee/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CComponent->__call('getAll', Array)
+#1 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CDbCommand->getAll()
+#2 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionIndex()
+#3 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/index')
+#8 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/index
+---
+2012/08/15 01:09:05 [error] [exception.CException] exception 'CException' with message 'Property "ProductController.categories" is not defined.' in /home/detzee/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(12): CComponent->__set('categories', Array)
+#1 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionIndex()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/index')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/index
+---
+2012/08/15 01:18:20 [error] [exception.CException] exception 'CException' with message 'Property "ProductController.db" is not defined.' in /home/detzee/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(23): CComponent->__get('db')
+#1 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionDetail()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('detail')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/detail')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/detail
+---
+2012/08/15 01:20:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('edit')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('edit')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/edit')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/edit&product=1
+---
+2012/08/15 01:22:54 [error] [php] Undefined variable: productIndex (/home/detzee/public_html/yii/kobelco/protected/views/product/detail.php:3)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(870): ProductController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/CController.php(783): ProductController->renderPartial()
+#2 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(30): ProductController->render()
+#3 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionDetail()
+#4 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(287): ProductController->runAction()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(266): ProductController->runActionWithFilters()
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): ProductController->run()
+#8 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=product/detail&product=1
+in /home/detzee/public_html/yii/kobelco/protected/views/product/detail.php (3)
+in /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php (30)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/15 01:35:17 [error] [exception.CException] exception 'CException' with message 'Property "ProductController.title" is not defined.' in /home/detzee/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(42): CComponent->__set('title', 'Test')
+#1 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionDetail()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('detail')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/detail')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/detail&product=1
+>>>>>>> 1e9e27637d5d38e59a2d82ae3ff7b3f70e257cc1
 ---
