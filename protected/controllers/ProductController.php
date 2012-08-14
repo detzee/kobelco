@@ -2,14 +2,48 @@
 
 class ProductController extends Controller
 {
+	
+	protected $categories = array();
+	
 	public function actionList()
 	{
 		$this->render('list');
 	}
 
 	public function actionIndex()
+	{		
+		$categories = Yii::app()->db->createCommand("SELECT * FROM categories")->queryAll();
+		$this->render('index', array(
+			'categories' => $categories
+		));
+	}
+	
+	public function actionDetail() 
 	{
-		$this->render('index');
+		$productId = Yii::app()->request->getQuery('product');
+		
+		if(!$productId) {
+			$this->redirect(array('product/index'));
+			exit;
+		}
+
+		$product = Product::model()->findByPk($productId);
+		
+		if(!$product->product_id) {
+			$this->redirect(array('product/index'));
+			exit;
+		}
+
+		$this->breadcrumbs = array(
+			'Products' => array('product/index'),
+			$product->product_name
+		);
+		
+		$this->pageTitle = $product->product_name;
+		
+		$this->render('detail', array(
+			'product' => $product
+		));
 	}
 
 	// -----------------------------------------------------------

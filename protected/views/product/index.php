@@ -3,8 +3,6 @@ $this->breadcrumbs=array(
 	'Products',
 );
 
-$categories = Yii::app()->db->createCommand("SELECT * FROM categories")->queryAll();
-
 ?>
 
 <div class="list-sp" id="main-categories">
