@@ -1,0 +1,22 @@
+<?php
+$pageName = 'Support';
+	
+$this->pageTitle=Yii::app()->name .' - ' . $pageName;
+$this->breadcrumbs=array(
+	$pageName,
+);
+?>
+<div class="about-content article-content">
+
+	<div class="col-left">
+		<div class="callout-image">
+			<img width="210" src="<?php echo Yii::app()->request->baseUrl?>/images/support.jpeg" alt="Kobelco Support" />
+		</div>
+	</div>
+	<div class="col-main">		
+		<div class="article-paragraph">
+			<h1><?php echo $pageName?></h1>
+			
+		</div>
+	</div>
+</div>

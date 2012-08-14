@@ -1,0 +1,6 @@
+<?php
+$aboutMenuItems = array(
+		array('label'=>'Sub services 1', 'url'=>array('/site/page', 'view'=>'sub-services-one')),
+		array('label'=>'Sub services 2', 'url'=>array('/site/page', 'view'=>'kobelco-ads')),
+		
+	);

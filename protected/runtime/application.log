@@ -1,0 +1,865 @@
+2012/08/12 21:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('products')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('products')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/products')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/products&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 21:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "services".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('services')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('services')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/services')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/services&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/products&view=products
+---
+2012/08/12 21:26:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('news')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('news')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/news')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/news&view=news
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/services&view=services
+---
+2012/08/12 21:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "support".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('support')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('support')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/support')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/support&view=support
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/news&view=news
+---
+2012/08/12 21:26:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "career".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('career')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('career')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/career')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/career&view=career
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/support&view=support
+---
+2012/08/12 22:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('products')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('products')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/products')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/products&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('products')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('products')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/products')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/products&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "services".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('services')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('services')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/services')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/services&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/products&view=products
+---
+2012/08/12 22:12:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "services".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('services')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('services')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/services')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/services&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/products&view=products
+---
+2012/08/12 22:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "services".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('services')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('services')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/services')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/services&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/products&view=products
+---
+2012/08/12 22:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('products')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('products')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/products')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/products&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:16:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "services".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('services')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('services')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/services')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/services&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/products&view=products
+---
+2012/08/12 22:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('news')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('news')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/news')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/news&view=news
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/services&view=services
+---
+2012/08/12 22:16:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "support".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('support')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('support')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/support')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/support&view=support
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/news&view=news
+---
+2012/08/12 22:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "career".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('career')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('career')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/career')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/career&view=career
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/support&view=support
+---
+2012/08/12 22:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('products')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('products')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/products')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/products&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('products')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('products')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/products')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/products&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "services".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('services')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('services')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/services')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/services&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/products&view=products
+---
+2012/08/12 22:38:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "products" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('products')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:38:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "services" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('services')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=products
+---
+2012/08/12 22:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "support" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('support')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=support
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=services
+---
+2012/08/12 22:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "career" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('career')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=career
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=support
+---
+2012/08/12 22:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "contact" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('contact')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=contact
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=career
+---
+2012/08/12 22:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "products" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('products')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "products" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('products')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:46:21 [error] [php] Invalid argument supplied for foreach() (/home/detzee/public_html/yii/framework/zii/widgets/CBreadcrumbs.php:106)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require()
+#1 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#2 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#3 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#4 /home/detzee/public_html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#5 /home/detzee/public_html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#6 /home/detzee/public_html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#7 /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php(5): SiteController->endContent()
+#8 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require()
+#9 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#10 /home/detzee/public_html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#11 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(141): SiteController->render()
+#12 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#13 /home/detzee/public_html/yii/framework/web/CController.php(309): CViewAction->runWithParams()
+#14 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#15 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#16 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#17 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#18 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#19 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php (75)
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php (5)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/12 22:46:35 [error] [php] Use of undefined constant ABOUT - assumed 'ABOUT' (/home/detzee/public_html/yii/kobelco/protected/views/site/pages/about.php:3)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(870): SiteController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/CController.php(783): SiteController->renderPartial()
+#2 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(141): SiteController->render()
+#3 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#4 /home/detzee/public_html/yii/framework/web/CController.php(309): CViewAction->runWithParams()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#8 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about
+in /home/detzee/public_html/yii/kobelco/protected/views/site/pages/about.php (3)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/12 22:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "products" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('products')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 22:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "services" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('services')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=services
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=products
+---
+2012/08/12 23:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "contact" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('contact')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=contact
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=support
+---
+2012/08/12 23:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "news" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('news')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=news
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=contact
+---
+2012/08/12 23:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "products" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('products')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=services
+---
+2012/08/12 23:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "products" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('products')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 23:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "products" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('products')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/12 23:18:30 [error] [php] include(modules/col-left.php): failed to open stream: No such file or directory (/home/detzee/public_html/yii/kobelco/protected/views/site/pages/products.php:11)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /home/detzee/public_html/yii/framework/web/CController.php(870): SiteController->renderFile()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(783): SiteController->renderPartial()
+#3 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(141): SiteController->render()
+#4 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(309): CViewAction->runWithParams()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#7 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#8 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#9 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#10 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=products
+in /home/detzee/public_html/yii/kobelco/protected/views/site/pages/products.php (11)
+in /home/detzee/public_html/yii/kobelco/protected/views/site/pages/products.php (11)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/12 23:28:16 [error] [php] Undefined index: r (/home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php:33)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#2 /home/detzee/public_html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 /home/detzee/public_html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#4 /home/detzee/public_html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#5 /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php(5): SiteController->endContent()
+#6 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require()
+#7 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#8 /home/detzee/public_html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#9 /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#11 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#13 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#14 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#15 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#16 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php (33)
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php (5)
+in /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php (32)
+2012/08/12 23:28:37 [error] [php] Undefined index: r (/home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php:33)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#2 /home/detzee/public_html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 /home/detzee/public_html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#4 /home/detzee/public_html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#5 /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php(5): SiteController->endContent()
+#6 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require()
+#7 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#8 /home/detzee/public_html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#9 /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#11 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#13 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#14 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#15 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#16 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php (33)
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php (5)
+in /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php (32)
+2012/08/13 00:14:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about-directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about-directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about-directors-message
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=about
+---
+2012/08/13 00:14:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about/directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about/directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about/directors-message
+---
+2012/08/13 00:16:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about/directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about/directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about/directors-message
+---
+2012/08/13 00:16:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about/directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about/directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about/directors-message
+---
+2012/08/13 00:16:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about/directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about/directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about/directors-message
+---
+2012/08/13 00:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about/directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about/directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about/directors-message
+---
+2012/08/13 00:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about/directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about/directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about/directors-message
+---
+2012/08/13 00:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about/directors-message" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('about/directors...')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=about/directors-message
+---
+2012/08/13 01:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "contact" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('contact')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=contact
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=career
+---
+2012/08/13 01:01:02 [error] [php] Undefined index: r (/home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php:33)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#2 /home/detzee/public_html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 /home/detzee/public_html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#4 /home/detzee/public_html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#5 /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php(5): SiteController->endContent()
+#6 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require()
+#7 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#8 /home/detzee/public_html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#9 /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#11 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#13 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#14 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#15 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#16 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php (33)
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php (5)
+in /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php (32)
+2012/08/13 08:04:57 [error] [php] Undefined index: r (/home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php:33)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#2 /home/detzee/public_html/yii/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 /home/detzee/public_html/yii/framework/web/CBaseController.php(207): CContentDecorator->run()
+#4 /home/detzee/public_html/yii/framework/web/CBaseController.php(301): SiteController->endWidget()
+#5 /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php(5): SiteController->endContent()
+#6 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require()
+#7 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#8 /home/detzee/public_html/yii/framework/web/CController.php(785): SiteController->renderFile()
+#9 /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#11 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#12 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#13 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#14 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#15 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#16 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/main.php (33)
+in /home/detzee/public_html/yii/kobelco/protected/views/layouts/column1.php (5)
+in /home/detzee/public_html/yii/kobelco/protected/controllers/SiteController.php (32)
+2012/08/13 09:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('index')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page
+---
+2012/08/13 09:34:18 [error] [php] include(include/services-menu.php): failed to open stream: No such file or directory (/home/detzee/public_html/yii/kobelco/protected/views/site/pages/services.php:2)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /home/detzee/public_html/yii/framework/web/CController.php(870): SiteController->renderFile()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(783): SiteController->renderPartial()
+#3 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(141): SiteController->render()
+#4 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(309): CViewAction->runWithParams()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#7 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#8 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#9 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#10 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=services
+in /home/detzee/public_html/yii/kobelco/protected/views/site/pages/services.php (2)
+in /home/detzee/public_html/yii/kobelco/protected/views/site/pages/services.php (2)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/13 09:36:53 [error] [php] Undefined variable: servicesMenuItems (/home/detzee/public_html/yii/kobelco/protected/views/site/pages/services.php:15)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(870): SiteController->renderFile()
+#1 /home/detzee/public_html/yii/framework/web/CController.php(783): SiteController->renderPartial()
+#2 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(141): SiteController->render()
+#3 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#4 /home/detzee/public_html/yii/framework/web/CController.php(309): CViewAction->runWithParams()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#7 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#8 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=services
+in /home/detzee/public_html/yii/kobelco/protected/views/site/pages/services.php (15)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/13 09:43:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Skype" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('Skype')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=Skype
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=support
+---
+2012/08/13 09:43:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Yahoo" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('Yahoo')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=Yahoo
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=support
+---
+2012/08/13 09:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "contact" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('contact')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=contact
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=career
+---
+2012/08/13 09:49:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "contact" was not found.' in /home/detzee/public_html/yii/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('contact')
+#1 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /home/detzee/public_html/yii/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('page')
+#6 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=contact
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=career
+---
+2012/08/13 09:55:40 [error] [php] Invalid argument supplied for foreach() (/home/detzee/public_html/yii/framework/zii/widgets/CMenu.php:255)
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CBaseController.php(148): CMenu->init()
+#1 /home/detzee/public_html/yii/framework/web/CBaseController.php(173): SiteController->createWidget()
+#2 /home/detzee/public_html/yii/kobelco/protected/views/site/pages/career.php(17): SiteController->widget()
+#3 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require()
+#4 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#5 /home/detzee/public_html/yii/framework/web/CController.php(870): SiteController->renderFile()
+#6 /home/detzee/public_html/yii/framework/web/CController.php(783): SiteController->renderPartial()
+#7 /home/detzee/public_html/yii/framework/web/actions/CViewAction.php(141): SiteController->render()
+#8 /home/detzee/public_html/yii/framework/web/actions/CAction.php(75): CViewAction->run()
+#9 /home/detzee/public_html/yii/framework/web/CController.php(309): CViewAction->runWithParams()
+#10 /home/detzee/public_html/yii/framework/web/CController.php(287): SiteController->runAction()
+#11 /home/detzee/public_html/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#12 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): SiteController->run()
+#13 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /home/detzee/public_html/yii/kobelco/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/kobelco/index.php?r=site/page&view=career
+in /home/detzee/public_html/yii/kobelco/protected/views/site/pages/career.php (17)
+in /home/detzee/public_html/yii/kobelco/index.php (13)
+2012/08/13 10:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "product".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('product')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('product')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/product')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/product
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=products
+---
+2012/08/13 10:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "product".' in /home/detzee/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/web/CController.php(271): CController->missingAction('product')
+#1 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('product')
+#2 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/product')
+#3 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=site/product
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=site/page&view=products
+---
+2012/08/14 13:04:25 [error] [exception.CException] exception 'CException' with message 'Categories and its behaviors do not have a method or closure named "loadByPk".' in /home/detzee/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/detzee/public_html/yii/framework/db/ar/CActiveRecord.php(226): CComponent->__call('loadByPk', Array)
+#1 /home/detzee/public_html/yii/kobelco/protected/views/product/list.php(11): CActiveRecord->__call('loadByPk', Array)
+#2 /home/detzee/public_html/yii/kobelco/protected/views/product/list.php(11): Categories->loadByPk('1')
+#3 /home/detzee/public_html/yii/framework/web/CBaseController.php(127): require('/home/detzee/pu...')
+#4 /home/detzee/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/detzee/pu...', NULL, true)
+#5 /home/detzee/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/detzee/pu...', NULL, true)
+#6 /home/detzee/public_html/yii/framework/web/CController.php(783): CController->renderPartial('list', NULL, true)
+#7 /home/detzee/public_html/yii/kobelco/protected/controllers/ProductController.php(7): CController->render('list')
+#8 /home/detzee/public_html/yii/framework/web/actions/CInlineAction.php(50): ProductController->actionList()
+#9 /home/detzee/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /home/detzee/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /home/detzee/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/detzee/public_html/yii/framework/web/CWebApplication.php(276): CController->run('list')
+#13 /home/detzee/public_html/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('product/list')
+#14 /home/detzee/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /home/detzee/public_html/yii/kobelco/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/list&category=1
+HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=product/index
+---
