@@ -788,6 +788,33 @@ a{
 
 #main-categories li {cursor:pointer}
 
+#content .product-detail-content .title{
+	padding: 40px 0 20px 0;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+}
+
+#content .product-detail-content ul li a{
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+#content .product-detail-content ul li{
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#content .product-detail-content ul li a:hover{
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+	color: #1d64b0;
+	font-weight: bold;
+}
 
 
 
