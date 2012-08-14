@@ -863,3 +863,30 @@ Stack trace:
 REQUEST_URI=/yii/kobelco/index.php?r=product/list&category=1
 HTTP_REFERER=http://detzee.com/yii/kobelco/index.php?r=product/index
 ---
+2012/08/14 18:00:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'yiikobelco'' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(619): CApplication->getDb()
+#5 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(Categories))
+#7 C:\wamp\www\yii\kobelco\protected\models\Categories.php(21): CActiveRecord::model('Categories')
+#8 C:\wamp\www\yii\kobelco\protected\views\product\list.php(11): Categories::model()
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', NULL, true)
+#11 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', NULL, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('list', NULL, true)
+#13 C:\wamp\www\yii\kobelco\protected\controllers\ProductController.php(7): CController->render('list')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): ProductController->actionList()
+#15 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('list')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('product/list')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\yii\kobelco\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii/kobelco/index.php?r=product/list&category=1
+---
