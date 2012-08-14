@@ -30,7 +30,7 @@ $this->breadcrumbs=array(
 <div class="product-detail-content">
 	<div class="col-left">
 			<div class="menu">
-				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Product-select-section_03.png" class="title" />
+				<div class="title" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Product-select-section_03.png" /></div>
 				<?php $this->widget('zii.widgets.CMenu',array('items'=> $categoriesMenuItems)); ?>
 			</div>
 	</div>
