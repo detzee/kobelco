@@ -6,13 +6,14 @@ $attributeLabels = $product->attributeLabels();
 $attributes = array('product_discharge_volume','product_pressure','product_voltage','product_power');
 $images = $product->product_picture;
 $mainImage = array_shift($images);
+$mainImage = is_object($mainImage)?$mainImage->image_file:Product::DEFAULT_IMAGE;
 ?>
 <div id="product-detail-content">
 	<div class="title"><?php echo $product->product_name?></div>
 	<div class="product-detail-top-content">
 		<ul class="product-important-information">
 			<li class="product-image">
-				<img src="<?php echo Yii::app()->request->baseUrl . '/' . $mainImage->image_file?>" />
+				<img src="<?php echo Yii::app()->request->baseUrl . '/' . $mainImage?>" />
 			</li>
 			<li class="product-information">				
 				<div class="paragraph">
@@ -27,7 +28,7 @@ $mainImage = array_shift($images);
 				</div>
 			</li>
 		</ul>
-		
+		<?php if(count($images)):?>
 		<div class="list-thumbs">
 			<ul class="list-thumb">
 				<?php foreach($images as $image):?>
@@ -35,6 +36,7 @@ $mainImage = array_shift($images);
 				<?php endforeach?>
 			</ul>
 		</div>
+		<?php endif;//count images?>
 	</div>
 	<div class="product-detail-bottom-content">
 		<?php include "detail/tabs.php"?>

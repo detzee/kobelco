@@ -29,11 +29,11 @@ class ProductController extends Controller
 
 		$product = Product::model()->findByPk($productId);
 		
-		if(!$product->product_id) {
+		if(!is_object($product)) {
 			$this->redirect(array('product/index'));
-			exit;
+			return;
 		}
-
+		
 		$this->breadcrumbs = array(
 			'Products' => array('product/index'),
 			$product->product_name
