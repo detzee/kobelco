@@ -52,7 +52,9 @@ $this->breadcrumbs=array(
 			<?php foreach($products as $product) :?>
 			<li>
 				<div class="images-holder"><img src="<?php echo $product->product_picture ?>" /></div>
-				<p>22-75kW Class<br/>Discharge air volume:<br/>4.18-15.0m³/min(0.8-0.6MPa)</p>
+				<div class="product-attributes-holder">
+					<?php include "detail/product-attributes.php"?>
+				</div>
 				<div class="detail"><?php echo CHtml::link('Detail', array('product/detail', 'product' => $product->product_id))?></div>
 			</li>
 			<?php endforeach; ?>

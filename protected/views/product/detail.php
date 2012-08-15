@@ -1,9 +1,6 @@
 <?php 
 Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl.'/css/bootstrap.css');
 Yii::app()->getClientScript()->registerScriptFile(Yii::app()->request->baseUrl.'/js/bootstrap.js');
-
-$attributeLabels = $product->attributeLabels();
-$attributes = array('product_discharge_volume','product_pressure','product_voltage','product_power');
 $images = $product->product_picture;
 $mainImage = array_shift($images);
 $mainImage = is_object($mainImage)?$mainImage->image_file:Product::DEFAULT_IMAGE;
@@ -17,14 +14,7 @@ $mainImage = is_object($mainImage)?$mainImage->image_file:Product::DEFAULT_IMAGE
 			</li>
 			<li class="product-information">				
 				<div class="paragraph">
-					<ul class="product-attributes">
-						<li class="product-attribute">
-							<?php foreach($attributes as $attribute) :?>
-								<span class="attribute-label"><?php echo $attributeLabels[$attribute]?></span>
-								<span class="attribute-value"><?php echo $product->$attribute?></span>
-							<?php endforeach?>
-						</li>
-					</ul>
+					<?php include "detail/product-attributes.php"?>
 				</div>
 			</li>
 		</ul>
