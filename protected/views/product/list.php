@@ -33,18 +33,7 @@ $this->breadcrumbs=array(
 				<div class="title" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Product-select-section_03.png" /></div>
 				<?php $this->widget('zii.widgets.CMenu',array('items'=> $categoriesMenuItems)); ?>
 			</div>
-			<div class="filter_product">
-				<div class="title"><img src="<?php echo Yii::app()->request->baseUrl;?>/images/Product-select-section_16.png" /></div>
-		
-				<div class="power">
-					<span>Power:</span>
-					<ul class="Power:">
-						<li><p>22 kW - 75 kW</p></li>
-						<li><p>75 kW - 100 kW</p></li>
-						<li><p>100 kW - 200 kW</p></li>
-					</ul>
-				</div>
-			</div>
+			<?php include "list/filter.php"?>
 	</div>
 	<div class="product-list-content">
 		<div class="product-title"><?php echo $category->category_name?></div>
