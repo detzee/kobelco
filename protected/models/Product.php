@@ -14,6 +14,7 @@
  * @property string $product_specification
  * @property string $product_picture
  * @property string $product_download
+ * @property array $images
  */
 class Product extends CActiveRecord
 {
@@ -62,6 +63,16 @@ class Product extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 		);
+	}
+	
+	/**
+	 * Load all images of this product to model
+	 * @return Product
+	 */
+	public function loadImages() {
+		if(!$this->product_id) return $this;
+		$this->product_picture = ProductImage::model()->findAll("product_id=:productId", array(":productId" => $this->product_id));
+		return $this;
 	}
 
 	/**

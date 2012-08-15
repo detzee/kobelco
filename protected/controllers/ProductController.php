@@ -40,7 +40,8 @@ class ProductController extends Controller
 		);
 		
 		$this->pageTitle = $product->product_name;
-		
+		$product->loadImages();
+		//echo '<pre>';print_r($product);exit;
 		$this->render('detail', array(
 			'product' => $product
 		));
