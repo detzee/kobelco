@@ -47,12 +47,12 @@ $this->breadcrumbs=array(
 			</div>
 	</div>
 	<div class="product-list-content">
-		<div class="product-selection"><?php echo $category->category_alias?></div>
+		<div class="product-title"><?php echo $category->category_name?></div>
 		<ul class="list-product">
 			<?php foreach($products as $product) :?>
 			<li>
-				<div class="images-holder"><img src="images/Product_item1.png" /></div>
-				<p>22-75kW Class<br/>Discharge air volume:<br/>4.18-15.0m³/min(0.8-0.6MPa)</p>
+				<div class="images-holder"><img src="<?php echo $product->product_picture ?>" /></div>
+				<p>22-75kW Class<br/>Discharge air volume:<br/>4.18-15.0mÂ³/min(0.8-0.6MPa)</p>
 				<div class="detail"><?php echo CHtml::link('Detail', array('product/detail', 'product' => $product->product_id))?></div>
 			</li>
 			<?php endforeach; ?>

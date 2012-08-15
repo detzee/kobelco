@@ -658,7 +658,7 @@ a{
 }
 
 #product-detail-content ul li.item1{
-	 background: url("../images/product_bg_repeat.png") repeat-x scroll 0 0 transparent;
+	background: url("../images/product_bg_repeat.png") repeat-x scroll 0 0 transparent;
     border: 1px solid #E1E1E1;
     border-radius: 5px 5px 5px 5px;
     height: 342px;
@@ -788,14 +788,14 @@ a{
 
 #main-categories li {cursor:pointer}
 
-#content .product-detail-content .title{
+#content .product-list-wrapper .title{
 	padding: 40px 0 20px 0;
 	border-bottom: 1px solid #ddd;
 	margin: 0;
 	width: 190px;
 }
 
-#content .product-detail-content ul li a{
+#content .product-list-wrapper ul li a{
 	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
     display: block;
     font-size: 12px;
@@ -803,12 +803,12 @@ a{
     padding-left: 10px;
 }
 
-#content .product-detail-content ul li{
+#content .product-list-wrapper ul li{
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
-#content .product-detail-content ul li a:hover{
+#content .product-list-wrapper ul li a:hover{
 	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
     display: block;
     font-size: 12px;
@@ -817,7 +817,7 @@ a{
 	font-weight: bold;
 }
 
-#content .product-detail-content .filter_product span{
+#content .product-list-wrapper .filter_product span{
 	font-weight: bold;
 	padding: 15px 0;
 	border-bottom: 1px solid #ddd;
@@ -825,7 +825,7 @@ a{
 	font-size: 13px;
 }
 
-#content .product-detail-content .filter_product p{
+#content .product-list-wrapper .filter_product p{
     font-size: 12px;
     line-height: 20px;
 	padding-left: 10px;
@@ -833,15 +833,41 @@ a{
 	margin: 0;
 }
 
-#content .product-detail-content .filter_product ul li{
+#content .product-list-wrapper .filter_product ul li{
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
+#content .product-list-content{
+	overflow: hidden;
+	
+}
 
+#content .product-list-content ul li{
+	float: left;
+	background: url("../images/product_bg_repeat.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px 5px 5px 5px;
+    height: 280px;
+    padding-top: 10px;
+    text-align: center;
+    width: 270px;
+	margin: 10px 10px 15px 15px;
+}
 
+#content .product-list-content ul li a{
+	background: url("../images/viewmore-brown-icon.png") no-repeat 165px 8px;
+}
 
+#content .product-list-content ul li a:hover{
+	background: url("../images/viewmore-blue-icon.png") no-repeat 165px 8px;
+}
 
+#content .product-list-content .product-title{
+	padding: 32px 0 4px 10px;
+	margin: 0;
+	font-size: 20px;
+}
 
 
 
