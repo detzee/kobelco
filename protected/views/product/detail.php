@@ -1,4 +1,7 @@
 <?php 
+Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl.'/css/bootstrap.css');
+Yii::app()->getClientScript()->registerScriptFile(Yii::app()->request->baseUrl.'/js/bootstrap.js');
+
 $attributeLabels = $product->attributeLabels();
 $attributes = array('product_discharge_volume','product_pressure','product_voltage','product_power');
 $images = $product->product_picture;
@@ -34,7 +37,7 @@ $mainImage = array_shift($images);
 		</div>
 	</div>
 	<div class="product-detail-bottom-content">
-		<p><?php echo $product->product_specification?></p>
+		<?php include "detail/tabs.php"?>
 	</div>
 </div><!-- #product-detail-content -->
 
