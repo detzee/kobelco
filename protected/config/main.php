@@ -37,20 +37,23 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		**/
 		// uncomment the following to enable URLs in path-format
-		/*
+		/**
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+			'rules'=>array(				
+				'index.html' => 'site/index',	
+				'<view:\w+>.html' => 'site/page',
+				'product/<action:\w+>.html' => 'product/<action>'
 			),
 		),
-		*/
+**/
+		/**
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
+		**/
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(

@@ -7,85 +7,16 @@ $this->breadcrumbs=array(
 <h1>News</h1>
 	<div class="news-content">
 		<ul class="news">
-			<li>
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
+		<?php for($i=1; $i<=6; $i++){ ?>
 			<li class="items">
 				<img alt="news-thumbs" src="images/news-thumbs.png" />
 				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
+					<h4><a href="<?php echo CHtml::normalizeUrl(array('site/page','view'=>'news-detail'))?>" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
 					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
+					<div class="text"><a href="<?php echo CHtml::normalizeUrl(array('site/page','view'=>'news-detail'))?>">Read more</a></div>
 				</div>
 			</li>
-			<li>
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
-			<li class="items">
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
-			<li>
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
-			<li class="items">
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
-			<li>
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
-			<li class="items">
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
-			<li>
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
-			<li class="items">
-				<img alt="news-thumbs" src="images/news-thumbs.png" />
-				<div class="thumbs-content">
-					<h4><a href="news-detail.php" id="thumbs-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-					<p>3/8/1012<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="text"><a href="news-detail.php">Read more</a></div>
-				</div>
-			</li>
+			<?php };?>
+			
 		</ul>
 	</div>

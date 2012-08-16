@@ -39,12 +39,12 @@ $this->breadcrumbs=array(
 		<div class="product-title"><?php echo $category->category_name?></div>
 		<ul class="list-product">
 			<?php foreach($products as $product) :?>
-			<li>
-				<div class="images-holder"><img src="<?php echo $product->product_picture ?>" /></div>
+			<li class="product_item">
+				<div class="images-holder"><img src="<?php echo Yii::app()->request->baseUrl.'/'.$product->product_picture ?>" /></div>
 				<div class="product-attributes-holder">
-					<?php include "detail/product-attributes.php"?>
+					<?php include "list/product-attributes.php"?>
 				</div>
-				<div class="detail"><?php echo CHtml::link('Detail', array('product/detail', 'product' => $product->product_id))?></div>
+				
 			</li>
 			<?php endforeach; ?>
 		</ul> <!-- list-product -->

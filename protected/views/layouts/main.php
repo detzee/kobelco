@@ -31,7 +31,7 @@ $menu = array(
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
-<body class="<?php echo (isset($_GET['r']))?str_replace('/','-',$_GET['r']):'site-index' ?>">
+<body class="<?php echo $this->id?$this->id . '-' . $this->getAction()->id:'site-index' ?>">
 
 <div id="outer_wrapper">
 			<div id="main_wrapper">
@@ -41,7 +41,7 @@ $menu = array(
 								<div class="top-header">
 									<div id="logo">
 										<div class="image-holder">
-											<a href="index.php"><img alt="Kobelco" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" /></a>
+											<a href="<?php echo CHtml::normalizeUrl(array('site/index'))?>"><img alt="Kobelco" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" /></a>
 										</div>
 									</div>
 									<div id="col-right-header">

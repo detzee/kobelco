@@ -163,14 +163,9 @@ a{
 }
 
 #main-menu ul li a:hover{
-	color: #707070;
+	color: #616161;
 }
 
-
-#main-menu ul .item1 a:hover,
-#main-menu ul li.current_page_item a{
-	background: url("../images/hover-maimenu.png") no-repeat center 15px;
-}
 
 #content .list-sp{
 	margin: 15px 0;
@@ -354,7 +349,7 @@ a{
 	overflow: hidden;
 	height: 76px;
 	border-top: 1px solid #dadada;
-	
+	margin-top: 20px;
 }
 
 .static-page #footer {
@@ -418,7 +413,7 @@ a{
 }
 
 #content p{
-	font-size: 11px;
+	font-size: 12px;
 	color: 
 }
 
@@ -491,6 +486,7 @@ a{
 	color: #1d64b0;
 	width: 840px;
 	margin: auto;
+	font-size: 18px;
 }
 
 #content .news-images{
@@ -640,53 +636,16 @@ a{
 	border-bottom: 1px solid #ddd;
 }
 
-#product_selection_content{
-	width: 800px;
-	float: right;
-}
-
-#product_selection_content .title{
-	margin: 40px 0 20px 0;
-}
-
 #product-detail-content .title{
-	margin: 40px 0 20px;
+	margin: 0 0 20px 0;
 }
 
 #product-detail-content ul li{
 	float: left;
 }
 
-#product-detail-content ul li.item1{
-	background: url("../images/product_bg_repeat.png") repeat-x scroll 0 0 transparent;
-    border: 1px solid #E1E1E1;
-    border-radius: 5px 5px 5px 5px;
-    height: 342px;
-    padding-top: 25px;
-    text-align: center;
-    width: 433px;
-}
-
-#product-detail-content ul li.item2{
-	width: 275px;
-	padding-left: 30px;
-}
-
 #product-detail-content .product-detail-top-content{
-	width: 740px;
 	overflow: hidden;
-}
-
-#product-detail-content .product-detail-top-content ul{
-	overflow: hidden;
-}
-
-#product-detail-content .product-detail-top-content p{
-	color: #616161;
-    font-size: 12px;
-    line-height: 20px;
-    margin: 35px 0 0 0;
-	text-align: left;
 }
 
 #product-detail-wrapper .col-left{
@@ -803,7 +762,7 @@ a{
     padding-left: 10px;
 }
 
-#content .product-list-wrapper ul li{
+#content .product-list-wrapper ul li.product_item{
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
@@ -843,16 +802,58 @@ a{
 	
 }
 
-#content .product-list-content ul li{
+#content .product-list-content ul li.product_item{
 	float: left;
 	background: url("../images/product_bg_repeat.png") repeat-x scroll 0 0 transparent;
-    border: 1px solid #E1E1E1;
-    border-radius: 5px 5px 5px 5px;
-    height: 280px;
-    padding-top: 10px;
-    text-align: center;
-    width: 270px;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px 5px 5px 5px;
+	height: 300px;
+	padding-top: 10px;
+	text-align: center;
+	width: 270px;
 	margin: 10px 10px 15px 15px;
+}
+
+#content .product-list-content ul.product-attributes{
+	margin-top: 30px;
+}
+
+#product-detail-content ul.product-attributes li{
+	width: 430px;
+	margin: 0;
+}
+
+#product-detail-content .product-detail-top-content .col-left{
+	float: left;
+}
+
+#product-detail-content .product-detail-top-content .col-right{
+	overflow: hidden;
+	padding-left: 20px;
+}
+
+#product-detail-content .product-detail-top-content .col-right h1{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#product-detail-content .product-detail-top-content .col-right ul.product-important-information li.product-image{
+	background: url("../images/product_bg_repeat.png") repeat-x #fff;
+	padding-top: 15px;
+	border: 1px solid #E1E1E1;
+	border-radius: 5px 5px 5px 5px;
+	height: 340px;
+	padding-top: 25px;
+	text-align: center;
+	width: 420px;
+}
+
+#content .product-list-content ul.product-attributes .detail{
+	margin-top: 10px;
+}
+
+#content .product-list-content ul li img{
+	width: 200px;
 }
 
 #content .product-list-content ul li a{
@@ -869,12 +870,54 @@ a{
 	font-size: 20px;
 }
 
+#product-detail-content .col-right{
+	margin-top: 40px;
+}
 
+#product-detail-content .col-right .product-information{
+	padding-left: 20px;
 
+}
 
+#product-detail-content .col-left ul li{
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+	width: 200px;
+	
+}
 
+#product-detail-content .col-left ul li a{
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 10px;
+}
 
+#product-detail-content .col-left ul li a:hover{
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #1d64b0;
+	font-weight: bold;
+}
 
+#product-detail-content .product-detail-top-content span{
+	color: #616161;
+    font-size: 14px;
+    line-height: 20px;
+	text-align: left;
+}
+
+#content .product-list-wrapper .categories ul li{
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.related-news ul{
+	overflow: visible;
+}
 
 
 
