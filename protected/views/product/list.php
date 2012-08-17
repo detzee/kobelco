@@ -40,7 +40,7 @@ $this->breadcrumbs=array(
 		<ul class="list-product">
 			<?php foreach($products as $product) :?>
 			<li class="product_item">
-				<div class="images-holder"><img src="<?php echo Yii::app()->request->baseUrl.'/'.$product->product_picture ?>" /></div>
+				<div class="images-holder"><a href="<?php echo CHtml::normalizeUrl(array('product/detail', 'product' => $product->product_id)); ?>" style="width: 200px;height: 200px;padding: 0;background: none;margin: 0 auto;"><img src="<?php echo Yii::app()->request->baseUrl.'/'.$product->product_picture ?>" /></a></div>
 				<div class="product-attributes-holder">
 					<?php include "list/product-attributes.php"?>
 				</div>

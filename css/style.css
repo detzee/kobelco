@@ -1,86 +1,83 @@
-body{
+body {
 	background: #fafafa;
 	font-family: verdana;
 	margin: 0;
 }
 
-h1{
+h1 {
 	margin-top: 10px;
 	text-transform: uppercase;
 	font-size: 15px;
 }
 
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
 
-li{
+li {
 	list-style: none;
-	
 }
 
-a{
+a {
 	text-decoration: none;
 	color: #737373;
 	text-shadow: 1px 1px 1px #FFFFFF;
 }
 
-@font-face{
+@font-face {
 	font-family: verdana;
 	src: url('../fonts/verdana.ttf');
 }
 
-@font-face{
+@font-face {
 	font-family: myriad-pro;
 	src: url('../fonts/MYRIADPRO-REGULAR.OTF');
 }
 
-#inner_wrapper{
+#inner_wrapper {
 	width: 1100px;
 	margin: 0 auto;
 	margin-bottom: 40px;
 	overflow: hidden;
 }
 
-#outer_wrapper{
+#outer_wrapper {
 	background: url("../images/top-bg.png") repeat-x;
 	height: 95px;
 }
 
-
-
-.site-index #main_wrapper{
+.site-index #main_wrapper {
 	background: url("../images/banner-bg-repeat.png") repeat-x 0 95px;
 }
 
-.site-index #content_wrapper{
+.site-index #content_wrapper {
 	background: url("../images/content-bg-repeat.png") repeat-x 0 468px;
 }
 
-#header{
+#header {
 	background: url("../images/top-bg.png") repeat-x;
 }
 
-#header .top-header{
+#header .top-header {
 	overflow: hidden;
 	height: 95px;
-	
 }
 
-#banner{
+#banner {
 	text-align: center;
-	background: url("../images/banner-bg-repeat.png") repeat-x scroll 0 0 transparent;
+	background: url("../images/banner-bg-repeat.png") repeat-x scroll 0 0
+		transparent;
 }
 
-#col-right-header{
+#col-right-header {
 	float: right;
 	width: 290px;
 	margin: 15px 0 0 0;
 }
 
-#col-right-header .language{	
+#col-right-header .language {
 	font-size: 11px;
 	color: #737373;
 	text-align: center;
@@ -88,60 +85,62 @@ a{
 	padding: 3px 10px 0 0;
 }
 
-#col-right-header .language span{
+#col-right-header .language span {
 	float: left;
 	padding-top: 3px;
 }
 
-#col-right-header .language select{
+#col-right-header .language select {
 	border: none;
 	background: #fff;
 }
 
 #search {
-	float:left
+	float: left
 }
 
-#search .input{
-	background: url("../images/search-icon.png") no-repeat scroll 155px 4px #D5D5D5;
-    border: 1px solid #fff;
-    border-radius: 5px 5px 5px 5px;
-    font-size: 12px;
-    height: 20px;
-    padding-left: 5px;
-    width: 175px;
-    text-shadow: 2px 1px 1px #fff;
+#search .input {
+	background: url("../images/search-icon.png") no-repeat scroll 155px 4px
+		#D5D5D5;
+	border: 1px solid #fff;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 12px;
+	height: 20px;
+	padding-left: 5px;
+	width: 175px;
+	text-shadow: 2px 1px 1px #fff;
 }
 
-#search img{
+#search img {
 	position: absolute;
 	padding: 2px 0 0 155px;
 }
 
-#logo{
+#logo {
 	float: left;
 	margin: 15px 0 0 0;
 }
 
-#main-menu{
-	background: url("../images/border-bottom-mainmenu.png") no-repeat scroll center bottom transparent;
-    float: right;
-    height: 25px;
-    overflow: hidden;
-    padding-top: 10px;
-    width: 850px;
-    text-transform:uppercase;
-    text-align: center;
+#main-menu {
+	background: url("../images/border-bottom-mainmenu.png") no-repeat scroll
+		center bottom transparent;
+	float: right;
+	height: 25px;
+	overflow: hidden;
+	padding-top: 10px;
+	width: 850px;
+	text-transform: uppercase;
+	text-align: center;
 }
 
-#main-menu ul{
+#main-menu ul {
 	overflow: hidden;
 	padding-top: 3px;
 	width: 600px;
 	margin: 0 auto;
 }
 
-#main-menu ul li{
+#main-menu ul li {
 	float: left;
 	font-size: 11px;
 	padding: 0 11px 5px 11px;
@@ -149,35 +148,34 @@ a{
 	height: 23px;
 }
 
-#main-menu ul li:first-child{
+#main-menu ul li:first-child {
 	background: none;
 }
 
-#main-menu ul li:last-child{
-
+#main-menu ul li:last-child {
+	
 }
 
-#main-menu ul li a{
+#main-menu ul li a {
 	height: 23px;
 	display: block
 }
 
-#main-menu ul li a:hover{
+#main-menu ul li a:hover {
 	color: #616161;
 }
 
-
-#content .list-sp{
+#content .list-sp {
 	margin: 15px 0;
 }
 
-#content .list-sp ul{
+#content .list-sp ul {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
 }
 
-#content .list-sp ul li{
+#content .list-sp ul li {
 	background: url("../images/li-bg.png") repeat-x;
 	height: 188px;
 	float: left;
@@ -187,72 +185,72 @@ a{
 	margin: 0 15px 0 20px;
 }
 
-#content .list-sp ul li:last-child{
+#content .list-sp ul li:last-child {
 	margin-right: 0;
 }
 
-#content .list-sp p{
+#content .list-sp p {
 	color: #737373;
-    font-size: 11px;
-    margin-top: 15px;
-    padding-left: 4px;
+	font-size: 11px;
+	margin-top: 15px;
+	padding-left: 4px;
 }
 
-#content .list-sp .text{
+#content .list-sp .text {
 	float: left;
 	margin: 15px 0 0 27px;
 	width: 100px;
 }
 
-#content .list-sp .viewmore{
-	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 70px 5px transparent;
-    color: #0063B5;
-    display: block;
-    font-size: 11px;
+#content .list-sp .viewmore {
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll
+		70px 5px transparent;
+	color: #0063B5;
+	display: block;
+	font-size: 11px;
 }
 
-#content .list-sp a:hover{
+#content .list-sp a:hover {
 	text-decoration: underline;
 }
 
-#content .list-sp ul li .col-right{
+#content .list-sp ul li .col-right {
 	width: 130px;
 	float: right;
 	padding: 45px 5px 0 0;
 }
 
-#content .list-sp ul li .col-left{
+#content .list-sp ul li .col-left {
 	width: 160px;
 	float: left;
 	padding: 10px 0 0 20px;
 }
 
-#content .paragraph{
+#content .paragraph {
 	margin-bottom: 10px;
 }
 
-#content .paragraph ul{
+#content .paragraph ul {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-
 }
 
-#content .paragraph img{
+#content .paragraph img {
 	margin: 5px 0 10px;
 }
 
-#content .paragraph ul li{
+#content .paragraph ul li {
 	float: left;
 	width: 30%;
 	margin: 0 30px 10px 15px;
 }
 
-#content .paragraph ul li:last-child{
+#content .paragraph ul li:last-child {
 	margin-right: 0;
 }
 
-#content .paragraph p{
+#content .paragraph p {
 	font-size: 11px;
 	color: #888;
 	line-height: 20px;
@@ -260,35 +258,36 @@ a{
 	text-align: justify;
 }
 
-#content .paragraph .same{
+#content .paragraph .same {
 	margin-left: 13px;
 }
 
-#content .paragraph .same p{
+#content .paragraph .same p {
 	background: url("../images/p_icon.png") 1px 4px no-repeat;
 	padding: 0 0 0 16px;
 }
 
-#content .paragraph .text{
+#content .paragraph .text {
 	float: right;
 	width: 100px;
 	margin-top: 10px;
 }
 
-#content .paragraph .viewmore{
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 70px 5px transparent;
-    color: #616161;
-    display: block;
-    font-size: 11px;
-    float: right;
-    padding-right: 18px;
+#content .paragraph .viewmore {
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll
+		70px 5px transparent;
+	color: #616161;
+	display: block;
+	font-size: 11px;
+	float: right;
+	padding-right: 18px;
 }
 
-#content .paragraph a:hover{
+#content .paragraph a:hover {
 	text-decoration: underline;
 }
 
-#content .news h3{
+#content .news h3 {
 	font-family: myriad-pro;
 	color: #616161;
 	font-size: 15px;
@@ -297,34 +296,34 @@ a{
 	margin: 15px 0 0 0;
 }
 
-#content .news ul{
+#content .news ul {
 	border-bottom: 1px solid #dadada;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
 }
 
-#content .news ul li{
+#content .news ul li {
 	float: left;
 	font-size: 10px;
 	padding: 0 5px;
 }
 
-#content .news a:hover{
+#content .news a:hover {
 	text-decoration: underline;
 }
 
-#content .news .right{
+#content .news .right {
 	float: right;
-    line-height: 45px;
-    width: 800px;
+	line-height: 45px;
+	width: 800px;
 }
 
-#content .news .left{
+#content .news .left {
 	float: left;
 }
 
-#content .news .viewall{
+#content .news .viewall {
 	font-size: 10px;
 	background: url("../images/viewall-icon.png") no-repeat right;
 	padding-right: 10px;
@@ -332,19 +331,19 @@ a{
 	text-decoration: none;
 }
 
-#content .news a.viewall:hover{
+#content .news a.viewall:hover {
 	text-decoration: underline;
 }
 
-#content .news a:hover{
+#content .news a:hover {
 	text-decoration: none;
 }
 
-#content .news .text{
+#content .news .text {
 	float: right;
 }
 
-#footer{
+#footer {
 	background: url("../images/footer_bg.png") repeat-x;
 	overflow: hidden;
 	height: 76px;
@@ -356,12 +355,11 @@ a{
 	margin: 0 50px;
 }
 
-#footer ul{
+#footer ul {
 	padding: 0;
-	
 }
 
-#footer ul li{
+#footer ul li {
 	float: left;
 	font-size: 11px;
 	color: #707070;
@@ -369,90 +367,90 @@ a{
 	border-right: 1px solid #707070;
 }
 
-#footer ul li:last-child{
+#footer ul li:last-child {
 	border: none;
 }
 
-#footer .logo{
+#footer .logo {
 	float: left;
 	padding: 19px 0 0 40px;
 }
 
-#footer .link{
+#footer .link {
 	float: right;
 	padding-top: 30px;
 }
 
-#footer .link a:hover{
+#footer .link a:hover {
 	text-decoration: underline;
 }
-#path{
+
+#path {
 	padding: 10px 0;
 	border-bottom: 1px solid #ddd;
 	overflow: hidden;
 }
 
-#path h3{
+#path h3 {
 	margin: 0;
 	font-size: 11px;
 	color: #616161;
 	float: left;
 }
 
-#path span{
+#path span {
 	font-size: 11px;
 }
 
-#content{
+#content {
 	overflow: hidden;
 	color: #616161;
 }
 
-#content .title{
+#content .title {
 	margin: 10px 0;
 }
 
-#content p{
+#content p {
 	font-size: 12px;
 	color: 
 }
 
-#content h4{
+#content h4 {
 	font-size: 12px;
 	margin: 0;
 }
 
-#content ul.news  li img{
+#content ul.news  li img {
 	border: 1px solid #d6d6d6;
 	padding: 3px;
 	float: left;
 }
 
-#content ul.news  li .thumbs-content{
+#content ul.news  li .thumbs-content {
 	width: 325px;
 	float: right;
 }
 
-#content ul.news  li{
-	 border-bottom: 1px solid #DDDDDD;
-    float: left;
-    height: 130px;
-    margin-right: 65px;
-    padding-top: 15px;
-    width: 480px;
-	
+#content ul.news  li {
+	border-bottom: 1px solid #DDDDDD;
+	float: left;
+	height: 130px;
+	margin-right: 65px;
+	padding-top: 15px;
+	width: 480px;
 }
 
-#content ul.news  li.items{
+#content ul.news  li.items {
 	margin-right: 0;
 }
-	
-#content ul.news li .text{
+
+#content ul.news li .text {
 	float: right;
 	margin: 20px 10px 0 0;
 }
 
-#content ul.news  li a{
+#content ul.news  li a {
 	display: block;
 	border: 1px solid #d0d0d0;
 	border-radius: 4px;
@@ -460,94 +458,91 @@ a{
 	padding: 3px;
 }
 
-#content ul.news  li #thumbs-title{
+#content ul.news  li #thumbs-title {
 	display: block;
 	font-size: 13px;
 	border: none;
 	padding: 0;
-	
 }
 
-
-
-#content ul.news  li a:hover{
+#content ul.news  li a:hover {
 	color: #707070;
 	text-decoration: underline;
 }
 
-#content .article-title{
+#content .article-title {
 	height: 55px;
 	text-align: center;
 	margin-top: 10px;
 	background: #f7f7f7;
 }
 
-#content h5{
+#content h5 {
 	color: #1d64b0;
 	width: 840px;
 	margin: auto;
 	font-size: 18px;
 }
 
-#content .news-images{
+#content .news-images {
 	text-align: center;
 }
 
-#content .news-images img{
+#content .news-images img {
 	border: 1px solid #d0d0d0;
 	background: #f2f2f2;
 	padding: 5px;
 	border-radius: 5px;
 }
 
-#content .news-images .news-img2{
+#content .news-images .news-img2 {
 	margin-left: 15px;
 }
 
-#content .news-paragraph{
+#content .news-paragraph {
 	width: 970px;
 	text-align: justify;
 	margin: auto;
 	padding: 10px 0;
 }
-#content .related-news{
+
+#content .related-news {
 	padding: 20px 0;
 	border-top: 1px solid #dcdcdc;
 }
 
-#content .related-news ul li{
+#content .related-news ul li {
 	padding: 10px 0 5px 0;
 	list-style: disc outside;
-	color:  #1d64b0;
-
+	color: #1d64b0;
 }
 
-#content .related-news ul li a{
+#content .related-news ul li a {
 	font-size: 12px;
 }
 
-#content .related-news ul li a:hover{
+#content .related-news ul li a:hover {
 	text-decoration: underline;
 }
 
-#news-content{
+#news-content {
 	width: 1100px;
 	margin: 0 auto;
 	padding-left: 80px;
 }
 
-#news-detail-content{
+#news-detail-content {
 	width: 1000px;
 	margin: 0 auto;
 }
 
-#product_selection_wrapper{
+#product_selection_wrapper {
 	overflow: hidden;
 	margin: auto;
 	padding-left: 50px;
 }
 
-#content .col-left{
+#content .col-left {
 	width: 190px;
 	float: left;
 }
@@ -560,62 +555,63 @@ a{
 	margin: 0 19px 20px 0;
 	border-radius: 5px;
 	border: 1px solid #e1e1e1;
-	
 }
 
-#product_selection_content ul.list-product li.same{
+#product_selection_content ul.list-product li.same {
 	margin-right: 0;
-	float:right!important;
+	float: right !important;
 }
 
-#product_selection_content ul.list-product{
+#product_selection_content ul.list-product {
 	text-align: center;
 }
 
-#product_selection_content ul.list-product .images-holder{
+#product_selection_content ul.list-product .images-holder {
 	padding-top: 10px;
 }
 
-#product_selection_content ul.list-product .detail a{
+#product_selection_content ul.list-product .detail a {
 	font-size: 10px;
 	background: url("../images/viewmore-blue-icon.png") no-repeat right;
 	color: #0063b5;
 	padding-right: 10px;
 }
 
-#product_selection_content ul.list-product .detail a:hover{
+#product_selection_content ul.list-product .detail a:hover {
 	text-decoration: underline;
 }
 
-#content .col-left .title{
+#content .col-left .title {
 	padding: 40px 0 20px 0;
 	border-bottom: 1px solid #ddd;
 	margin: 0;
 }
 
-#content ul.categories li a{
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
-    display: block;
-    font-size: 12px;
-    line-height: 20px;
-    padding-left: 10px;
+#content ul.categories li a {
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 10px;
 }
 
-#content ul.categories li{
+#content ul.categories li {
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
-#content ul.categories li a:hover{
-	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
-    display: block;
-    font-size: 12px;
-    line-height: 20px;
+#content ul.categories li a:hover {
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0
+		8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
 	color: #1d64b0;
 	font-weight: bold;
 }
 
-#content .col-left span{
+#content .col-left span {
 	font-weight: bold;
 	padding: 15px 0;
 	border-bottom: 1px solid #ddd;
@@ -623,160 +619,176 @@ a{
 	font-size: 13px;
 }
 
-#content .filer_product p{
-    font-size: 12px;
-    line-height: 20px;
+#content .filer_product p {
+	font-size: 12px;
+	line-height: 20px;
 	padding-left: 10px;
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
 	margin: 0;
 }
 
-#content .filer_product ul li{
+#content .filer_product ul li {
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
-#product-detail-content .title{
+#product-detail-content .title {
 	margin: 0 0 20px 0;
 }
 
-#product-detail-content ul li{
+#product-detail-content ul li {
 	float: left;
 }
 
-#product-detail-content .product-detail-top-content{
+#product-detail-content .product-detail-top-content {
 	overflow: hidden;
 }
 
-#product-detail-wrapper .col-left{
+#product-detail-wrapper .col-left {
 	margin-right: 25px;
 }
 
-#product-detail-wrapper{
+#product-detail-wrapper {
 	padding-left: 80px;
 	overflow: hidden;
 }
 
-#product-detail-content .product-detail-top-content .list-thumbs{
+#product-detail-content .product-detail-top-content .list-thumbs {
 	margin-top: 10px;
 }
 
-#product-detail-content .product-detail-top-content .list-thumb li{
+#product-detail-content .product-detail-top-content .list-thumb li {
 	margin-right: 10px;
 }
 
-#product-detail-content .product-detail-top-content .list-thumb img{
+#product-detail-content .product-detail-top-content .list-thumb img {
 	border: 1px solid #e9e9e9;
 	padding: 5px 10px;
 	border-radius: 4px;
 }
 
-#product-detail-content .product-detail-bottom-content{
+#product-detail-content .product-detail-bottom-content {
 	width: 740px;
 	overflow: hidden;
 	margin-top: 10px;
 }
 
-#product-detail-content .product-detail-bottom-content p{
-
+#product-detail-content .product-detail-bottom-content p {
 	border: 1px solid #e9e9e9;
 	padding: 10px;
 	text-align: justify;
 }
 
-.number-pages{
+.number-pages {
 	margin: 10px 0 20px 0;
 	width: 100%;
 	overflow: hidden;
 }
-.number-pages ul{
+
+.number-pages ul {
 	float: right;
 	overflow: hidden;
 }
-	
-.number-pages ul li{
+
+.number-pages ul li {
 	float: left;
 	padding: 0 5px;
 }
-.number-pages ul li a{
+
+.number-pages ul li a {
 	font-size: 11px;
 }
 
-.number-pages ul li a:hover{
+.number-pages ul li a:hover {
 	text-decoration: underline;
 }
 
-.breadcrumbs{
+.breadcrumbs {
 	border-bottom: 1px solid #DDDDDD;
-    padding: 10px 0;
-    text-transform: uppercase;
+	padding: 10px 0;
+	text-transform: uppercase;
 }
 
-.article-content ul li a{
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
-    display: block;
-    font-size: 12px;
-    line-height: 20px;
-    padding-left: 10px;
+.article-content ul li a {
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 10px;
 }
 
-.article-content ul li{
+.article-content ul li {
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
-.article-content ul li a:hover{
-	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
-    display: block;
-    font-size: 12px;
-    line-height: 20px;
+.article-content ul li a:hover {
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0
+		8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
 	color: #1d64b0;
-	
 }
 
-.article-content .article-paragraph{
+.article-content .article-paragraph {
 	float: right;
 	width: 890px;
 }
 
-.menu li.active a {font-weight:bold}
+.menu li.active a {
+	font-weight: bold
+}
 
-#main-menu li.active a {font-weight:bold}
+#main-menu li.active a {
+	font-weight: bold
+}
 
-.category-name {font-weight:bold;font-size:18px;line-height:22px;margin-top:60px}
+.category-name {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 60px
+}
 
-#main-categories li {cursor:pointer}
+#main-categories li {
+	cursor: pointer
+}
 
-#content .product-list-wrapper .title{
+#content .product-list-wrapper .title {
 	padding: 40px 0 20px 0;
 	border-bottom: 1px solid #ddd;
 	margin: 0;
 	width: 190px;
 }
 
-#content .product-list-wrapper ul li a{
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
-    display: block;
-    font-size: 12px;
-    line-height: 20px;
-    padding-left: 10px;
+#content .product-list-wrapper ul li a {
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 10px;
 }
 
-#content .product-list-wrapper ul li.product_item{
+#content .product-list-wrapper ul li.product_item {
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
-#content .product-list-wrapper ul li a:hover{
-	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
-    display: block;
-    font-size: 12px;
-    line-height: 20px;
+#content .product-list-wrapper ul li a:hover {
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0
+		8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
 	color: #1d64b0;
 	font-weight: bold;
 }
 
-#content .product-list-wrapper .filter_product span{
+#content .product-list-wrapper .filter_product span {
 	font-weight: bold;
 	padding: 15px 0;
 	border-bottom: 1px solid #ddd;
@@ -784,60 +796,62 @@ a{
 	font-size: 13px;
 }
 
-#content .product-list-wrapper .filter_product p{
-    font-size: 12px;
-    line-height: 20px;
+#content .product-list-wrapper .filter_product p {
+	font-size: 12px;
+	line-height: 20px;
 	padding-left: 10px;
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
 	margin: 0;
 }
 
-#content .product-list-wrapper .filter_product ul li{
+#content .product-list-wrapper .filter_product ul li {
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
-#content .product-list-content{
+#content .product-list-content {
 	overflow: hidden;
-	
 }
 
-#content .product-list-content ul li.product_item{
+#content .product-list-content ul li.product_item {
 	float: left;
-	background: url("../images/product_bg_repeat.png") repeat-x scroll 0 0 transparent;
+	background: url("../images/product_bg_repeat.png") repeat-x scroll 0 0
+		transparent;
 	border: 1px solid #E1E1E1;
 	border-radius: 5px 5px 5px 5px;
-	height: 300px;
+	height: 275px;
 	padding-top: 10px;
 	text-align: center;
 	width: 270px;
 	margin: 10px 10px 15px 15px;
 }
 
-#content .product-list-content ul.product-attributes{
+#content .product-list-content ul.product-attributes {
 	margin-top: 30px;
 }
 
-#product-detail-content ul.product-attributes li{
+#product-detail-content ul.product-attributes li {
 	width: 430px;
 	margin: 0;
 }
 
-#product-detail-content .product-detail-top-content .col-left{
+#product-detail-content .product-detail-top-content .col-left {
 	float: left;
 }
 
-#product-detail-content .product-detail-top-content .col-right{
+#product-detail-content .product-detail-top-content .col-right {
 	overflow: hidden;
 	padding-left: 20px;
 }
 
-#product-detail-content .product-detail-top-content .col-right h1{
+#product-detail-content .product-detail-top-content .col-right h1 {
 	font-size: 22px;
 	font-weight: bold;
 }
 
-#product-detail-content .product-detail-top-content .col-right ul.product-important-information li.product-image{
+#product-detail-content .product-detail-top-content .col-right ul.product-important-information li.product-image
+	{
 	background: url("../images/product_bg_repeat.png") repeat-x #fff;
 	padding-top: 15px;
 	border: 1px solid #E1E1E1;
@@ -848,54 +862,55 @@ a{
 	width: 420px;
 }
 
-#content .product-list-content ul.product-attributes .detail{
+#content .product-list-content ul.product-attributes .detail {
 	margin-top: 10px;
 }
 
-#content .product-list-content ul li img{
+#content .product-list-content ul li img {
 	width: 200px;
 }
 
-#content .product-list-content ul li a{
-	background: url("../images/viewmore-brown-icon.png") no-repeat 165px 8px;
+#content .product-list-content ul li a {
+	background: url("../images/viewmore-brown-icon.png") no-repeat 165px 8px
+		;
 }
 
-#content .product-list-content ul li a:hover{
+#content .product-list-content ul li a:hover {
 	background: url("../images/viewmore-blue-icon.png") no-repeat 165px 8px;
 }
 
-#content .product-list-content .product-title{
+#content .product-list-content .product-title {
 	padding: 32px 0 4px 10px;
 	margin: 0;
 	font-size: 20px;
 }
 
-#product-detail-content .col-right{
+#product-detail-content .col-right {
 	margin-top: 40px;
 }
 
-#product-detail-content .col-right .product-information{
+#product-detail-content .col-right .product-information {
 	padding-left: 20px;
-
 }
 
-#product-detail-content .col-left ul li{
+#product-detail-content .col-left ul li {
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 	width: 200px;
-	
 }
 
-#product-detail-content .col-left ul li a{
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+#product-detail-content .col-left ul li a {
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
 	display: block;
 	font-size: 12px;
 	line-height: 20px;
 	padding-left: 10px;
 }
 
-#product-detail-content .col-left ul li a:hover{
-	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
+#product-detail-content .col-left ul li a:hover {
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0
+		8px transparent;
 	display: block;
 	font-size: 12px;
 	line-height: 20px;
@@ -903,21 +918,18 @@ a{
 	font-weight: bold;
 }
 
-#product-detail-content .product-detail-top-content span{
+#product-detail-content .product-detail-top-content span {
 	color: #616161;
-    font-size: 14px;
-    line-height: 20px;
+	font-size: 12px;
+	line-height: 20px;
 	text-align: left;
 }
 
-#content .product-list-wrapper .categories ul li{
+#content .product-list-wrapper .categories ul li {
 	padding: 5px 0;
 	border-bottom: 1px solid #ddd;
 }
 
-.related-news ul{
+.related-news ul {
 	overflow: visible;
 }
-
-
-

@@ -9,7 +9,7 @@ $i = 0;
 <div class="product-tabs-holder">
 	<ul class="product-tabs nav nav-tabs">
 		<?php foreach($tabs as $tab):$active=$i==0?'class="active"':null;?>
-		<li <?php echo $active?>><a href="#<?php echo $tab['id']?>" data-toggle="tab"><?php echo $tab['label']?></a></li>		
+		<li <?php echo $active?>><a href="#<?php echo $tab['id']?>" data-toggle="tab" ><?php echo $tab['label'] ?></a></li>		
 		<?php $i++;endforeach?>
 	</ul>
 	<div class="tab-content">

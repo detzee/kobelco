@@ -8,6 +8,9 @@ $attributes = array('product_discharge_volume','product_power');
 			
 			<div><span class="attribute-value" title="<?php echo $attributeLabels[$attribute]?>"><?php echo $product->$attribute?></span></div>
 		<?php endforeach?>
+<?php /**?>
+
 <div class="detail"><?php echo CHtml::link('Detail', array('product/detail', 'product' => $product->product_id))?></div>
+<?php **/ ?>
 	</li>
 </ul>
