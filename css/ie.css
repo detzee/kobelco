@@ -991,3 +991,17 @@ a {
 	float: right;
 	width: 880px;
 }
+
+td{
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#content .product-list-wrapper ul li.active a{
+	font-weight: bold;
+	color: #1d64b0;
+}
+
+#content .product-list-wrapper .filter_product ul li.active a{
+	font-weight: bold;
+	color: #1d64b0;
+}
