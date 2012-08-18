@@ -151,7 +151,6 @@
 	background: none repeat scroll 0 0 #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
     position: relative;
-    top: 0;
     z-index: 1000;
 }
 .nav-pills > li > a {

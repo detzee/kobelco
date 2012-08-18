@@ -27,11 +27,6 @@ a {
 }
 
 @font-face {
-	font-family: verdana;
-	src: url('../fonts/verdana.ttf');
-}
-
-@font-face {
 	font-family: myriad-pro;
 	src: url('../fonts/MYRIADPRO-REGULAR.OTF');
 }
@@ -166,13 +161,15 @@ a {
 }
 
 #content .list-sp {
-	margin: 15px 0;
+	margin: 15px auto;
+    width: 1036px;
+	clear: both;
 }
 
 #content .list-sp ul {
-	overflow: hidden;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    width: 1050px;
 }
 
 #content .list-sp ul li {
@@ -181,12 +178,17 @@ a {
 	float: left;
 	border: 1px solid #d0d0d0;
 	border-radius: 4px;
-	width: 30%;
+	width: 320px;
 	margin: 0 15px 0 20px;
 }
 
-#content .list-sp ul li:last-child {
+#content .list-sp ul li:last-child 
+{
 	margin-right: 0;
+}
+
+#content .list-sp ul li:first-child{
+	margin-left: 0;
 }
 
 #content .list-sp p {
@@ -228,10 +230,12 @@ a {
 
 #content .paragraph {
 	margin-bottom: 10px;
+	margin: 0 auto;
+	width: 1036px;
 }
 
 #content .paragraph ul {
-	overflow: hidden;
+	width: 1050px;
 	margin: 0;
 	padding: 0;
 }
@@ -242,8 +246,12 @@ a {
 
 #content .paragraph ul li {
 	float: left;
-	width: 30%;
+	width: 320px;
 	margin: 0 30px 10px 15px;
+}
+
+#content .paragraph ul li:first-child{
+	margin-left: 0;
 }
 
 #content .paragraph ul li:last-child {
@@ -296,11 +304,13 @@ a {
 	margin: 15px 0 0 0;
 }
 
-#content .news ul {
+#content .news{
 	border-bottom: 1px solid #dadada;
-	margin: 0;
 	overflow: hidden;
-	padding: 0;
+	position: relative;
+	left: 30px;
+	width: 1036px;
+	top: -15px;
 }
 
 #content .news ul li {
@@ -314,9 +324,19 @@ a {
 }
 
 #content .news .right {
-	float: right;
 	line-height: 45px;
-	width: 800px;
+}
+
+#content .news .right ul{
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 850px;
+	left: 0;
+}
+
+#content .news .right  ul li:last-child{
+	float: right;
 }
 
 #content .news .left {
@@ -365,6 +385,7 @@ a {
 	color: #707070;
 	padding: 0 10px;
 	border-right: 1px solid #707070;
+	text-transform: uppercase;
 }
 
 #footer ul li:last-child {
@@ -447,7 +468,7 @@ a {
 
 #content ul.news li .text {
 	float: right;
-	margin: 20px 10px 0 0;
+	margin-right: 15px;
 }
 
 #content ul.news  li a {
@@ -499,13 +520,6 @@ a {
 	margin-left: 15px;
 }
 
-#content .news-paragraph {
-	width: 970px;
-	text-align: justify;
-	margin: auto;
-	padding: 10px 0;
-}
-
 #content .related-news {
 	padding: 20px 0;
 	border-top: 1px solid #dcdcdc;
@@ -543,7 +557,7 @@ a {
 }
 
 #content .col-left {
-	width: 190px;
+	width: 200px;
 	float: left;
 }
 
@@ -761,7 +775,7 @@ a {
 	padding: 40px 0 20px 0;
 	border-bottom: 1px solid #ddd;
 	margin: 0;
-	width: 190px;
+	width: 200px;
 }
 
 #content .product-list-wrapper ul li a {
@@ -848,6 +862,7 @@ a {
 #product-detail-content .product-detail-top-content .col-right h1 {
 	font-size: 22px;
 	font-weight: bold;
+	margin-top: 0;
 }
 
 #product-detail-content .product-detail-top-content .col-right ul.product-important-information li.product-image
@@ -891,6 +906,7 @@ a {
 
 #product-detail-content .col-right .product-information {
 	padding-left: 20px;
+	width: 325px;
 }
 
 #product-detail-content .col-left ul li {
@@ -932,4 +948,52 @@ a {
 
 .related-news ul {
 	overflow: visible;
+}
+
+#slider img{
+	height: 373px;
+}
+
+.col-main.col-right{
+	width: 880px;
+	float: right;
+}
+
+#related-news li a{
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+#related-news li a:hover{
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #1d64b0;
+}
+
+#related-news li{
+	border-bottom: 1px solid #DDDDDD;
+    padding: 5px 0;
+}
+
+#content .col-left .news-title{
+	margin: 10px 0;
+}
+
+#slider-wrapper{
+	height: 373px;
+}
+
+.news-content ul#news-list li{
+	border-bottom: 1px solid #ddd;
+	padding: 5px 0;
+}
+
+.news-content .news-paragraph{
+	float: right;
+	width: 880px;
 }

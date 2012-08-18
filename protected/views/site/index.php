@@ -1,27 +1,9 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
-<div id="banner">
-	<img alt='banner' src="<?php echo Yii::app()->request->baseUrl; ?>/images/banner.png" />
-</div>
+<?php 
+$this->widget('application.components.Slider');
+?>
 <div class="news">
-	<ul>
-		<div class="left">
-			<h3>WHAT'S NEWS TODAY: </h3>
-		</div>
-		<div class="right">
-			<li>
-				<a href="#">Jul 24, 2012  Juniper Networks Reports Preliminary,</a>
-			</li>
-			<li>
-				<a href="#"> Second Quarter 2012 Financial Results,</a>
-			</li>
-			<li>
-				<a href="#">Aug 6, 2012 Marketing Capability</a>
-			</li>
-			<div class="text">
-				<a href="#" class="viewall">View all</a>	
-			</div>
-		</div>
-	</ul>
+	<?php $this->widget('application.components.TodaysNews')?>
 </div>
 <div class="list-sp">
 	<ul>
