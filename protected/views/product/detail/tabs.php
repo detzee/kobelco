@@ -15,7 +15,13 @@ $i = 0;
 	<div class="tab-content">
 		<?php $i=0;foreach($tabs as $tab):$active=$i==0?' active':null;?>
 		<div class="tab-pane<?php echo $active?>" id="<?php echo $tab['id']?>">
-			<?php echo $product->$tab['content']?>
+			<?php 
+				if($tab['id']== 'download'): ?>
+					<a href="<?php echo $product->$tab['content']?>"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/PDF-Download-Icon.jpg" alt="Download" title="Download" style="width: 35px;" /><?php echo $product->product_name ?></a>
+				
+				<?php else:?>
+					<?php echo $product->$tab['content']?>
+				<?php endif ?>
 		</div>	
 		<?php $i++;endforeach?>	
 	</div>

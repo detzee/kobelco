@@ -77,7 +77,7 @@ $menu = array(
 
 	<div id="footer">
 		<div class="logo">
-			<img alt="<?php echo Yii::app()->name?>" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo-footer.png" />
+			<a href="/yii/kobelco/index.php?r=site/index"><img alt="<?php echo Yii::app()->name?>" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo-footer.png" /></a>
 		</div>
 		<div class="link">
 			<?php $this->widget('zii.widgets.CMenu',array(

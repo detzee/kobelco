@@ -824,6 +824,11 @@ a {
 	border-bottom: 1px solid #ddd;
 }
 
+#content .product-list-wrapper .filter_product ul li.active a{
+	font-weight: bold;
+	color: #1d64b0;
+}
+
 #content .product-list-content {
 	overflow: hidden;
 }
@@ -996,4 +1001,35 @@ a {
 .news-content .news-paragraph{
 	float: right;
 	width: 880px;
+}
+
+td{
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#content .product-list-wrapper ul li.active a{
+	font-weight: bold;
+	color: #1d64b0;
+}
+
+#contact-form .row input{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 25px;
+}
+
+#ContactForm_body{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#contact-form .error #ContactForm_body{
+	border: 1px solid red;
+	border-radius: 4px;
+}
+
+#contact-form .error input{
+	border: 1px solid red;
+	border-radius: 4px;
+	height: 25px;
 }

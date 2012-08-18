@@ -10,7 +10,7 @@ $this->widget('application.components.Slider');
 	<li class="kobelcoks">
 		<div class="col-left">
 			<img alt="KOBELCO KS" src="images/kobelco-ks-logo.png" />
-			<p>22-75kW Class</br>Discharge air volume:</br>4.18-15.0m³/min(0.8-</br>0.6MPa)</p>
+			<p>22-75kW Class<br/>Discharge air volume:<br/>4.18-15.0m³/min(0.8-<br/>0.6MPa)</p>
 		</div>
 		<div class="col-right">
 			<img alt="KOBELCO KS" src="images/kobelco-ks-icon.png" />
@@ -22,7 +22,7 @@ $this->widget('application.components.Slider');
 	<li class="kobelion-vs-ag-sg">
 		<div class="col-left">
 			<img alt="KOBELION-VS-AG-SG" src="images/KobelionII.png" />
-			<p>22-75kW Class</br>Discharge air volume:</br>4.18-15.0m³/min(0.8-</br>0.6MPa)</p>
+			<p>22-75kW Class<br/>Discharge air volume:<br/>4.18-15.0m³/min(0.8-<br/>0.6MPa)</p>
 		</div>
 		<div class="col-right">
 			<img alt="KOBELION-VS-AG-SG" src="images/kobelion2-icon.png" />
@@ -34,7 +34,7 @@ $this->widget('application.components.Slider');
 	<li class="kobelion-xg">
 		<div class="col-left">
 			<img alt="KOBELION XG" src="images/kobelion-xg.png" />
-			<p>22-75kW Class</br>Discharge air volume:</br>4.18-15.0m³/min(0.8-</br>0.6MPa)</p>
+			<p>22-75kW Class<br/>Discharge air volume:<br/>4.18-15.0m³/min(0.8-<br/>0.6MPa)</p>
 		</div>
 		<div class="col-right">
 			<img alt="KOBELION XG" src="images/kobelion-xg-icon.png" />
