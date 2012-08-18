@@ -1005,3 +1005,25 @@ td{
 	font-weight: bold;
 	color: #1d64b0;
 }
+
+#contact-form .row input{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 25px;
+}
+
+#contact-form .error input{
+	border: 1px solid red;
+	border-radius: 4px;
+	height: 25px;
+}
+
+#ContactForm_body{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#contact-form .error #ContactForm_body{
+	border: 1px solid red;
+	border-radius: 4px;
+}
