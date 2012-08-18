@@ -1,0 +1,19 @@
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect example.com/*/ to /en/*/
+# The condition makes sure that the rule is only applied if language 
+# is not part of the URL in form of e.g. "/en/"
+#RewriteCond %{REQUEST_URI} !^.*/(en|vi)/.*$
+#RewriteRule ^(.*)$ /en/$1 [L,R]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+# otherwise forward it to index.php
+RewriteRule . index.php

@@ -1,6 +1,6 @@
 <?php
 $this->breadcrumbs=array(
-	'News',
+	Yii::t('site', 'News'),
 );
 ?>
 <div class="news-content">

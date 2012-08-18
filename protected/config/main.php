@@ -39,16 +39,24 @@ return array(
 		),
 		**/
 		// uncomment the following to enable URLs in path-format
-		/**
-		'urlManager'=>array(
-			'urlFormat'=>'path',
-			'rules'=>array(				
-				'index.html' => 'site/index',	
-				'<view:\w+>.html' => 'site/page',
-				'product/<action:\w+>.html' => 'product/<action>'
-			),
-		),
-**/
+		
+		'request'=>array(
+	        'enableCookieValidation'=>true,
+	        'enableCsrfValidation'=>true,
+	    ),
+	    'urlManager'=>array(
+	        'class'=>'application.components.UrlManager',
+	        'urlFormat'=>'path',
+	        'showScriptName'=>false,
+	        'rules'=>array(
+	            '<language:(vi|en)>/' => 'site/index',
+	            '<language:(vi|en)>/<action:(contact|login|logout)>/*' => 'site/<action>',
+	            '<language:(vi|en)>/<controller:\w+>/<id:\d+>'=>'<controller>/view',
+	            '<language:(vi|en)>/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+	            '<language:(vi|en)>/<controller:\w+>/<action:\w+>/*'=>'<controller>/<action>',
+	        ),
+	    ),
+
 		/**
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
@@ -57,7 +65,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yiikobelco',
+			'connectionString' => 'mysql:host=localhost;dbname=kobelco',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => 'root',
@@ -90,5 +98,9 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
+		'languages' => array(
+			'en' => 'English',
+			'vi' => 'Tiếng việt'
+		),
 	),
 );

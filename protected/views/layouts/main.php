@@ -46,14 +46,8 @@ $menu = array(
 										</div>
 									</div>
 									<div id="col-right-header">
-										<div class="language">
-																						
-											<select id="language-select-box">
-											  <option>English</option>
-											  <option>Vietnamese</option>
-											  <option>French</option>
-											  <option>Japanese</option>
-											</select>
+										<div class="language">																						
+											<?php $this->widget('application.components.LanguageSwitcher')?>
 										</div>
 										<div id="search">
 											<input type="text" name="search" class="input" maxlength="20" placeholder="Search.." />
