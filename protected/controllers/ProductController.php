@@ -6,8 +6,28 @@ class ProductController extends Controller
 	protected $categories = array();
 	
 	public function actionList()
-	{
-		$this->render('list');
+	{	
+		$productIndex = array('product/index');
+		
+		$categoryId = Yii::app()->request->getQuery('category');
+		
+		if(!$categoryId) {
+			$this->redirect($productIndex);
+			return;
+		}
+		
+		$category = Categories::model()->findByPk($categoryId);
+		
+		$products = Product::model()->findAll("category_id=:categoryId", array(":categoryId" => $categoryId));
+		
+		$this->breadcrumbs=array(
+			'Products'=>$productIndex,
+			$category->category_alias,
+		);
+		$this->render('list', array(			
+			'category' => $category,
+			'products' => $products,
+		));
 	}
 
 	public function actionIndex()
@@ -48,6 +68,37 @@ class ProductController extends Controller
 		$this->render('detail', array(
 			'product' => $product
 		));
+	}
+	
+	public function actionSearch() {
+		if(!$q = Yii::app()->request->getQuery('q')) {
+			$this->render('404');
+			return;
+		}	
+		$match = addcslashes($q, '%_'); // escape LIKE's special characters
+		$condition = new CDbCriteria( array(
+		    'condition' => "product_name LIKE :match",         // no quotes around :match
+		    'params'    => array(':match' => "%$match%")  // Aha! Wildcards go here
+		) );
+		$products = Product::model()->findAll($condition);
+		$category = new stdClass; 
+		$category->category_name = Yii::t('site', 'Search result(s) for \'{q}\'', array('{q}' => $q));
+		
+		$this->breadcrumbs=array(			
+			$category->category_name
+		);
+		
+		
+		if(count($products)) {
+			$this->render('list', array(
+				'category' => $category,
+				'products' => $products,
+			));
+		}else{
+			$this->render('404');
+		}
+		
+		
 	}
 
 	// -----------------------------------------------------------

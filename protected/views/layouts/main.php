@@ -50,7 +50,7 @@ $menu = array(
 											<?php $this->widget('application.components.LanguageSwitcher')?>
 										</div>
 										<div id="search">
-											<input type="text" name="search" class="input" maxlength="20" placeholder="Search.." />
+											<input type="text" name="search" class="input" maxlength="20" placeholder="Search.." value="<?php echo Yii::app()->request->getQuery('q')?>" onkeyup="if(event.keyCode == 13) {document.location.href='<?php echo CHtml::normalizeUrl(array('product/search'))?>?q=' + this.value}"/>
 										</div>
 										<div class="clearfix"><!-- --></div>
 									</div> <!-- #col-right-header -->
