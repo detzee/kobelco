@@ -7,9 +7,9 @@ $careerMenuItems = array(
 	array('label' => 'Sales Application Engineer', 'url' => '#sales-application-engineer'),
 );
 	
-$this->pageTitle=Yii::app()->name .' - ' . $pageName;
+$this->pageTitle=Yii::app()->name .' - ' . Yii::t('site', 'Career');
 $this->breadcrumbs=array(
-	$pageName,
+	Yii::t('site', 'Career'),
 );
 ?>
 <div class="about-content article-content">
@@ -21,7 +21,7 @@ $this->breadcrumbs=array(
 	</div>
 	<div class="col-main">		
 		<div class="article-paragraph">
-			<h1><?php echo $pageName?></h1>
+			<h1><?php echo Yii::t('site', 'Career')?></h1>
 			<p>KOBELCO COMPRESSORS AMERICA, INC., (America), is an equal opportunity employer, and does not discriminate on the basis of sex, color, or national origin. If you would like to apply for any of the positions listed below, please send us a copy of your resume. A cover letter will help us understand why you are applying for the job, your salary history, and availability. We respond to all applications, and may ask for references at that time. Send your information to the <a href="mailto:hr@kobelco-kca.com?subject=Resume">Human Resources Department</a>.</p>
 			<h4>Current Positions</h4>
 			<br/>

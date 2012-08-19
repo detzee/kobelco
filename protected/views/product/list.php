@@ -22,7 +22,7 @@ $category = Categories::model()->findByPk($categoryId);
 $products = Product::model()->findAll("category_id=:categoryId", array(":categoryId" => $categoryId));
 
 $this->breadcrumbs=array(
-	'Products'=>$productIndex,
+	Yii::t('site', 'Products')=>$productIndex,
 	$category->category_alias,
 );
 

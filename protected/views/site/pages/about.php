@@ -1,9 +1,9 @@
 <?php
 include "include/about-menu.php";
 	
-$this->pageTitle=Yii::app()->name .' - about us';
+$this->pageTitle=Yii::app()->name .' - '.Yii::t('site', 'About us');
 $this->breadcrumbs=array(
-	'ABOUT US',
+	Yii::t('site', 'About us'),
 );
 ?>
 <div class="about-content article-content">
@@ -15,7 +15,7 @@ $this->breadcrumbs=array(
 	</div>
 	<div class="col-main">		
 		<div class="article-paragraph">
-			<h1>About Us</h1>
+			<h1><?php echo Yii::t('site', 'About us')?></h1>
 			<p>Kobelco consists of Kobe Steel, Ltd. (KSL), Kobelco Compressors America, Inc. (KCA), Kobelco Compressors Manufacturing of Indiana (KCMI) and Kobelco Machinery Asia Pte, Ltd. (KMA).</p>
 
 			<p>Kobelco is a global, diversified industrial corporation with annual revenues in excess of $20 billion (USD). Established in 1905, Kobelco is based in Tokyo, Japan, with manufacturing, sales and support locations worldwide. The Company operates in three main business sectors: Steel & Iron, Aluminum & Copper and Machinery. Kobelco's Compressor Division is a major business unit within the Machinery Sector.</p>

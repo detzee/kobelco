@@ -1,13 +1,13 @@
 <?php 
 $menu = array(
-		array('label'=>'Home', 'url'=>array('/site/index')),
-		array('label'=>'About Us', 'url'=>array('/site/page', 'view'=>'about')),
-		array('label'=>'Products', 'url'=>array('/product/index')),
-		array('label'=>'Services', 'url'=>array('/site/page', 'view'=>'services')),
-		array('label'=>'News', 'url'=>array('news/index', 'view'=>'news')),
-		array('label'=>'Support', 'url'=>array('/site/page', 'view'=>'support')),
-		array('label'=>'Career', 'url'=>array('/site/page', 'view'=>'career')),
-		array('label'=>'Contact', 'url'=>array('/site/contact')),
+		array('label'=>Yii::t('site', 'Home'), 'url'=>array('/site/index')),
+		array('label'=>Yii::t('site', 'About us'), 'url'=>array('/site/page', 'view'=>'about')),
+		array('label'=>Yii::t('site', 'Products'), 'url'=>array('/product/index')),
+		array('label'=>Yii::t('site', 'Services'), 'url'=>array('/site/page', 'view'=>'services')),
+		array('label'=>Yii::t('site', 'News'), 'url'=>array('news/index', 'view'=>'news')),
+		array('label'=>Yii::t('site', 'Support'), 'url'=>array('/site/page', 'view'=>'support')),
+		array('label'=>Yii::t('site', 'Career'), 'url'=>array('/site/page', 'view'=>'career')),
+		array('label'=>Yii::t('site', 'Contact'), 'url'=>array('/site/contact')),
 		
 	);
 	
@@ -50,7 +50,7 @@ $menu = array(
 											<?php $this->widget('application.components.LanguageSwitcher')?>
 										</div>
 										<div id="search">
-											<input type="text" name="search" class="input" maxlength="20" placeholder="Search.." />
+											<input type="text" name="search" class="input" maxlength="20" placeholder="<?php echo Yii::t('site', 'Search')?>..." />
 										</div>
 										<div class="clearfix"><!-- --></div>
 									</div> <!-- #col-right-header -->

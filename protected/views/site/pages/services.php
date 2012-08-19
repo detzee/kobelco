@@ -3,9 +3,9 @@
 
 $pageName = 'Services';
 	
-$this->pageTitle=Yii::app()->name .' - ' . $pageName;
+$this->pageTitle=Yii::app()->name .' - ' . Yii::t('site', 'Services');
 $this->breadcrumbs=array(
-	$pageName,
+	Yii::t('site', 'Services'),
 );
 ?>
 <div class="about-content article-content">
@@ -17,7 +17,7 @@ $this->breadcrumbs=array(
 	</div>
 	<div class="col-main">		
 		<div class="article-paragraph">
-			<h1><?php echo $pageName?></h1>
+			<h1><?php echo Yii::t('site', 'Services')?></h1>
 			<p>Kobelco also supplies an extensive array of After Sales products and services, including:</p>
 			<ul>
 			<li>In-shop and on-site repair and overhaul of screw compressors of any type and brand</li>

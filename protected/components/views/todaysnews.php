@@ -1,6 +1,6 @@
 <?php if(!count($this->posts)) return;?>
 <div class="left">
-	<h3>WHAT'S NEWS TODAY: </h3>
+	<h3><?php echo Yii::t('site', 'What\'s news today')?>:</h3>
 </div>
 <div class="right">
 	<ul>
@@ -9,7 +9,7 @@
 			<?php echo CHtml::link($post->title, array('news/view', 'id' => $post->news_id))?>
 		</li>
 		<?php endforeach?>
-		<li><a href="<?php echo CHtml::normalizeUrl(array('news/index'))?>" class="viewall">View all</a></li>
+		<li><a href="<?php echo CHtml::normalizeUrl(array('news/index'))?>" class="viewall"><?php echo Yii::t('site', 'View all')?></a></li>
 	</ul>
 
 </div>

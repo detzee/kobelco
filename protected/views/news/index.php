@@ -10,7 +10,7 @@ $this->breadcrumbs=array(
 		</div>	
 	</div>
 	<div class="news-paragraph">
-	<h1> News </h1>
+	<h1> <?php echo Yii::t('site', 'News')?></h1>
 	<ul id="news-list">
 	<?php
 	$this->widget('zii.widgets.CListView', array(

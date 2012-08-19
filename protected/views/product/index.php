@@ -1,6 +1,6 @@
 <?php
 $this->breadcrumbs=array(
-	'Products',
+	Yii::t('site', 'Products'),
 );
 
 ?>
