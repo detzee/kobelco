@@ -34,8 +34,11 @@ class ProductController extends Controller
 			return;
 		}
 		
+		$category = Categories::model()->findByPk($product->category_id);
+		
 		$this->breadcrumbs = array(
 			'Products' => array('product/index'),
+			$category->category_alias => array('product/list', 'category' => $category->category_id),
 			$product->product_name
 		);
 		

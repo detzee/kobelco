@@ -74,7 +74,11 @@ class Product extends CActiveRecord
 	 */
 	public function loadImages() {
 		if(!$this->product_id) return $this;
-		$this->product_picture = ProductImage::model()->findAll("product_id=:productId", array(":productId" => $this->product_id));
+		$images = ProductImage::model()->findAll("product_id=:productId", array(":productId" => $this->product_id));
+		if(count($images)) {
+			array_unshift($images, $this->product_picture);
+			$this->product_picture = $images;
+		}
 		return $this;
 	}
 

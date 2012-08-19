@@ -12,8 +12,16 @@ Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl.'/cs
 Yii::app()->getClientScript()->registerScriptFile(Yii::app()->request->baseUrl.'/js/bootstrap.js');
 Yii::app()->getClientScript()->registerScriptFile(Yii::app()->request->baseUrl . '/js/jquery.lightbox-0.5.js');
 $images = $product->product_picture;
-$mainImage = array_shift($images);
-$mainImage = is_object($mainImage)?$mainImage->image_file:Product::DEFAULT_IMAGE;
+if(is_array($images)) {
+	$mainImage = array_shift($images);
+	$mainImage = is_object($mainImage)?$mainImage->image_file:$mainImage;
+}else if(is_string($images)){
+	$mainImage = $images;
+	$images = array();
+}else{
+	$mainImage = Product::DEFAULT_IMAGE;
+	$images = array();
+}
 ?>
 <div id="product-detail-content">
 	<div class="product-detail-top-content">
@@ -41,7 +49,7 @@ $mainImage = is_object($mainImage)?$mainImage->image_file:Product::DEFAULT_IMAGE
 					<?php foreach($images as $image):?>
 					<li class="item">
 						<a href="<?php echo Yii::app()->request->baseUrl ?>/images/Product-detail_10.png">
-						<img src="<?php echo $image->image_file?>" />
+							<img src="<?php echo Yii::app()->request->baseUrl ?>/<?php echo $image->image_file?>" width="79" height="79"/>
 						</a>
 					</li>
 					<?php endforeach?>
@@ -61,9 +69,8 @@ $mainImage = is_object($mainImage)?$mainImage->image_file:Product::DEFAULT_IMAGE
 
 
 <script type="text/javascript">
-$(function() {
-	// Use this example, or...
-	$('.list-thumb a').lightBox(); // Select all links that contains lightbox in the attribute rel
+$(function() {	
+	$('.list-thumb a').lightBox();
 
 });
 </script>
