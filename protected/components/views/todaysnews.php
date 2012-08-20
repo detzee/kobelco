@@ -1,6 +1,6 @@
 <?php if(!count($this->posts)) return;?>
 <div class="left">
-	<h3><?php echo Yii::t('site', 'What\'s news today')?>:</h3>
+	<h3 style="text-transform: uppercase;"><?php echo Yii::t('site', 'What\'s news today')?>:</h3>
 </div>
 <div class="right">
 	<ul>

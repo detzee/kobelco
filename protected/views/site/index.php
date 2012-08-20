@@ -16,7 +16,7 @@ $this->widget('application.components.Slider');
 			<img alt="KOBELCO KS" src="images/kobelco-ks-icon.png" />
 		</div>
 		<div class="text">
-			<a href="#" class="viewmore"><?php echo Yii::t('site', 'View more')?></a>	
+			<a href="<?php echo CHtml::normalizeUrl(array('product/detail', 'product' => 7))?>" class="viewmore"><?php echo Yii::t('site', 'View more')?></a>	
 		</div>
 	</li>
 	<li class="kobelion-vs-ag-sg">
@@ -28,7 +28,7 @@ $this->widget('application.components.Slider');
 			<img alt="KOBELION-VS-AG-SG" src="images/kobelion2-icon.png" />
 		</div>
 		<div class="text">
-			<a href="#" class="viewmore"><?php echo Yii::t('site', 'View more')?></a>	
+			<a href="<?php echo CHtml::normalizeUrl(array('product/detail', 'product' => 8))?>" class="viewmore"><?php echo Yii::t('site', 'View more')?></a>	
 		</div>
 	</li>
 	<li class="kobelion-xg">
@@ -40,7 +40,7 @@ $this->widget('application.components.Slider');
 			<img alt="KOBELION XG" src="images/kobelion-xg-icon.png" />
 		</div>
 		<div class="text">
-			<a href="#" class="viewmore"><?php echo Yii::t('site', 'View more')?></a>	
+			<a href="<?php echo CHtml::normalizeUrl(array('product/detail', 'product' => 9))?>" class="viewmore"><?php echo Yii::t('site', 'View more')?></a>	
 		</div>
 	</li>
 </ul>

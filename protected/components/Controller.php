@@ -32,10 +32,15 @@ class Controller extends CController
 	        $cookie->expire = time() + (60*60*24*365); // (1 year)
 	        Yii::app()->request->cookies['language'] = $cookie; 
 	    }
-	    else if (Yii::app()->user->hasState('language'))
+	    else if (Yii::app()->user->hasState('language')) {
+			
 	        Yii::app()->language = Yii::app()->user->getState('language');
-	    else if(isset(Yii::app()->request->cookies['language']))
+	    }else if(isset(Yii::app()->request->cookies['language'])) {			
 	        Yii::app()->language = Yii::app()->request->cookies['language']->value;
+		}else{
+			Yii::app()->language = Yii::app()->params['default_language'];
+		}
+		
 	}
 	public function createMultilanguageReturnUrl($lang='en'){
 	    if (count($_GET)>0){

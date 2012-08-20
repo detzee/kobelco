@@ -97,10 +97,11 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'sondoha@gmail.com',
 		'languages' => array(
 			'en' => 'English',
 			'vi' => 'Tiếng việt'
 		),
+		'default_language' => 'en'
 	),
 );

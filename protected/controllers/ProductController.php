@@ -57,7 +57,7 @@ class ProductController extends Controller
 		$category = Categories::model()->findByPk($product->category_id);
 		
 		$this->breadcrumbs = array(
-			'Products' => array('product/index'),
+			Yii::t('site', 'Products') => array('product/index'),
 			$category->category_alias => array('product/list', 'category' => $category->category_id),
 			$product->product_name
 		);
