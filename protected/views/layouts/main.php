@@ -39,7 +39,7 @@ $menu = array(
 				<div id="content_wrapper">
 						<div id="inner_wrapper">
 							<div id="header">
-								<div class="top-header">
+								
 									<div id="logo">
 										<div class="image-holder">
 											<a href="<?php echo CHtml::normalizeUrl(array('site/index'))?>"><img alt="Kobelco" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" /></a>
@@ -61,9 +61,9 @@ $menu = array(
 										)); ?>
 
 									</div> <!-- #main-menu -->
-								</div> <!-- .top-header -->
+								
 							</div> <!-- #header -->
-							
+							<div class="clear" style='clear: both;'></div>
 	
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(

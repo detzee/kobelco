@@ -40,11 +40,11 @@ a {
 
 #outer_wrapper {
 	background: url("../images/top-bg.png") repeat-x;
-	height: 95px;
+	height: 115px;
 }
 
 .site-index #main_wrapper {
-	background: url("../images/banner-bg-repeat.png") repeat-x 0 95px;
+	background: url("../images/banner-bg-repeat.png") repeat-x 0 115px;
 }
 
 .site-index #content_wrapper {
@@ -53,11 +53,7 @@ a {
 
 #header {
 	background: url("../images/top-bg.png") repeat-x;
-}
-
-#header .top-header {
-	overflow: hidden;
-	height: 95px;
+	height: 115px;
 }
 
 #banner {
@@ -68,17 +64,18 @@ a {
 
 #col-right-header {
 	float: right;
-	width: 290px;
-	margin: 15px 0 0 0;
+	width: 400px;
+	margin: 25px 0 0 0;
 }
 
 #col-right-header .language {
-	font-size: 11px;
 	color: #737373;
-	text-align: center;
-	position: relative;
-	top: -3px;
-	right: 20px;
+    float: left;
+    font-size: 11px;
+    position: relative;
+    right: 10px;
+    text-align: center;
+    top: 3px;
 }
 
 #col-right-header .language span {
@@ -92,7 +89,8 @@ a {
 }
 
 #search {
-	float: left
+	float: left;
+	padding-top: 7px;
 }
 
 #search .input {
@@ -118,30 +116,27 @@ a {
 }
 
 #main-menu {
-	float: right;
+	float: left;
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    top: 15px;
-    width: 850px;
+    top: 10px;
+    clear: both;
 }
 
 #main-menu ul {
-	overflow: hidden;
-	width: 640px;
-	margin: 0 auto;
+
 }
 
 #main-menu ul li {
 	float: left;
-	font-size: 11px;
-	padding: 0 11px;
-	background: url("../images/menu-border.png") no-repeat 0 2px;
-	height: 23px;
+	font-size: 13px;
+	padding: 0 38px;
+	line-height: 25px;
 }
 
 #main-menu ul li:first-child {
-	background: none;
+	
 }
 
 #main-menu ul li:last-child {
@@ -154,7 +149,7 @@ a {
 }
 
 #main-menu ul li a:hover {
-	color: #616161;
+	color: #444;
 }
 
 #content .list-sp {
@@ -308,7 +303,6 @@ a {
 	position: relative;
 	left: 30px;
 	width: 1036px;
-	top: -30px;
 }
 
 #content .news ul li {
@@ -988,10 +982,6 @@ a {
 	margin: 10px 0;
 }
 
-#slider-wrapper{
-	height: 373px;
-}
-
 .news-content ul#news-list li{
 	border-bottom: 1px solid #ddd;
 	padding: 5px 0;
@@ -1035,4 +1025,30 @@ td{
 
 .paragraph ul li a{
 	color: #444;
+}
+
+#my-slideshow{
+	height: 353px;
+}
+
+.language-switcher li{
+	float: left;
+}
+
+.language-switcher .text{
+	padding: 10px 5px 0 0;
+}
+
+.language-switcher .text a{
+	padding: 0 5px;
+}
+
+#my-slideshow img{
+	height: 353px;
+}
+
+#my-slideshow .bjqs-wrapper{
+	height: 353px;
+    overflow: hidden;
+    position: relative;
 }
