@@ -1,25 +1,20 @@
-<?php 
-if(!count($this->images)) return;
-Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl . '/css/slider/themes/default/default.css');
-Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl . '/css/slider/nivo-slider.css');
-Yii::app()->getClientScript()->registerScriptFile(Yii::app()->request->baseUrl . '/js/jquery.nivo.slider.js');
-?>
-<div class="slider-wrapper theme-default">
-	<div id="slider" class="nivoSlider">
+<div id="my-slideshow">
+	<ul class="bjqs">
 		<?php foreach($this->images as $image):?>
-		<img 
-			src="<?php echo Yii::app()->request->baseUrl . $image['path']?>"
-			data-thumb="<?php echo Yii::app()->request->baseUrl . $image['path']?>" 
-			data-transition="sliceDownRight" 
-			alt="<?php echo $image['caption']?>" 
-		/> 
+		<li><img src="<?php echo Yii::app()->request->baseUrl . $image['path']?>" /></li>
 		<?php endforeach?>
-	</div> <!-- #slider -->
+	</ul>
 </div>
 
 <script type="text/javascript">
     $(window).load(function() {      
-        $('#slider').nivoSlider();
+    	$('#my-slideshow').bjqs({
+    	'width' : 999,
+    	'height' : 373,
+    	'showMarkers' : true,    	
+    	'centerMarkers' : false,
+    	'animation' : 'slide'
+    	});
     });
 </script>
 

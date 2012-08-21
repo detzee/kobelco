@@ -13,6 +13,9 @@ class Slider extends CWidget {
 	}
 	
 	public function run() {		
+		if(!count($this->images)) return;
+		Yii::app()->getClientScript()->registerCssFile(Yii::app()->request->baseUrl . '/css/basic-jquery-slider.css');
+		Yii::app()->getClientScript()->registerScriptFile(Yii::app()->request->baseUrl . '/js/basic-jquery-slider.js');
 		$this->render('slider');
 	}
 }
