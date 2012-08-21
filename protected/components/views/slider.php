@@ -9,10 +9,11 @@ Yii::app()->getClientScript()->registerScriptFile(Yii::app()->request->baseUrl .
 		<?php foreach($this->images as $image):?>
 		<img 
 			src="<?php echo Yii::app()->request->baseUrl . $image['path']?>"
-			data-thumb="<?php echo Yii::app()->request->baseUrl . $image['path']?>"
+			data-thumb="<?php echo Yii::app()->request->baseUrl . $image['path']?>" 
+			data-transition="sliceDownRight" 
 			alt="<?php echo $image['caption']?>" 
 		/> 
-		<?php endforeach?>	
+		<?php endforeach?>
 	</div> <!-- #slider -->
 </div>
 

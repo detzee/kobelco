@@ -118,20 +118,16 @@ a {
 }
 
 #main-menu {
-	background: url("../images/border-bottom-mainmenu.png") no-repeat scroll
-		center bottom transparent;
 	float: right;
-	height: 25px;
-	overflow: hidden;
-	padding-top: 10px;
-	width: 850px;
-	text-transform: uppercase;
-	text-align: center;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 15px;
+    width: 850px;
 }
 
 #main-menu ul {
 	overflow: hidden;
-	padding-top: 3px;
 	width: 640px;
 	margin: 0 auto;
 }
@@ -139,7 +135,7 @@ a {
 #main-menu ul li {
 	float: left;
 	font-size: 11px;
-	padding: 0 11px 5px 11px;
+	padding: 0 11px;
 	background: url("../images/menu-border.png") no-repeat 0 2px;
 	height: 23px;
 }
@@ -162,10 +158,9 @@ a {
 }
 
 #content .list-sp {
-	margin: 0 auto;
+	margin: 15px auto;
     width: 1036px;
 	clear: both;
-	margin-bottom: 15px;
 }
 
 #content .list-sp ul {
@@ -304,6 +299,7 @@ a {
 	background: url("../images/news-icon.png") no-repeat;
 	padding-left: 20px;
 	margin: 15px 0 0 0;
+	line-height: 20px;
 }
 
 #content .news{
@@ -312,13 +308,13 @@ a {
 	position: relative;
 	left: 30px;
 	width: 1036px;
-	top: -32px;
+	top: -30px;
 }
 
 #content .news ul li {
 	float: left;
 	font-size: 10px;
-	padding: 0 5px;
+	padding: 0 15px;
 }
 
 #content .news a:hover {
@@ -326,14 +322,15 @@ a {
 }
 
 #content .news .right {
-	line-height: 45px;
+	line-height: 48px;
+	float: left !important;
 }
 
 #content .news .right ul{
 	border: none;
 	margin: 0;
 	padding: 0;
-	width: 850px;
+	width: auto;
 	left: 0;
 }
 
@@ -1034,4 +1031,8 @@ td{
 	border: 1px solid red;
 	border-radius: 4px;
 	height: 25px;
+}
+
+.paragraph ul li a{
+	color: #444;
 }
