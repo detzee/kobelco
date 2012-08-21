@@ -13,7 +13,6 @@ p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bot
 /* demo styles */
 
 body{
-  background:#f5f5f5;
   font-family: 'Carter One', sans-serif;
 }
 
@@ -61,6 +60,7 @@ a.bjqs-next{
  ol.bjqs-markers{
   position:absolute;
   bottom:-50px;
+  left: 155px;
 }
 
  ol.bjqs-markers li{

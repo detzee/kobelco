@@ -2,6 +2,7 @@
 <?php 
 $this->widget('application.components.Slider');
 ?>
+<div class='clear' style='clear: both;'></div>
 <div class="news">
 	<?php $this->widget('application.components.TodaysNews')?>
 </div>
