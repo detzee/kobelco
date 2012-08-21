@@ -17,7 +17,7 @@ $i = 0;
 		<div class="tab-pane<?php echo $active?>" id="<?php echo $tab['id']?>">
 			<?php 
 				if($tab['id']== 'download'): ?>
-					<a href="<?php echo $product->$tab['content']?>"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/PDF-Download-Icon.jpg" alt="Download" title="Download" style="width: 35px;" /><?php echo $product->product_name ?></a>
+					<a href="<?php echo $product->$tab['content']?>"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/download_pdf_button.png" alt="Download" title="Download" /><?php //echo $product->product_name ?></a>
 				
 				<?php else:?>
 					<?php echo $product->$tab['content']?>
