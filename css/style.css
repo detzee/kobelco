@@ -1103,7 +1103,7 @@ td{
 	        box-shadow: 0 3px 6px -5px black;
 	z-index:11;
 	position:absolute;
-	top:4px;left:-55px;display:none;
+	top:4px;right:37px;display:none;
 }
 
 #language-box a {
@@ -1125,4 +1125,5 @@ td{
 .paragraph h3{
 	font-size: 25px;
 	margin-bottom: 15px;
+	font-weight:bold;
 }
