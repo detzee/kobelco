@@ -36,37 +36,37 @@ $this->breadcrumbs=array(
 			),
 		)); ?>
 		
-			<p class="note"><?php echo Yii::t('site', 'Fields with * are required.') ?></p>
+			<p class="note"><?php echo Yii::t('site', 'Fields with'."<span style='color: red;'> *</span>".' are required.') ?></p>
 		
 			<?php echo $form->errorSummary($model); ?>
 		
 			<div class="row">
-				<?php echo $form->labelEx($model,Yii::t('site', 'Name')); ?>
+				<?php echo $form->labelEx($model,Yii::t('site', 'Name')."<span style='color: red;'> *</span>"); ?>
 				<?php echo $form->textField($model,'name'); ?>
 				<?php echo $form->error($model,'name'); ?>
 			</div>
 		
 			<div class="row">
-				<?php echo $form->labelEx($model,'email'); ?>
+				<?php echo $form->labelEx($model,Yii::t('site', 'Email')."<span style='color: red;'> *</span>"); ?>
 				<?php echo $form->textField($model,'email'); ?>
 				<?php echo $form->error($model,'email'); ?>
 			</div>
 		
 			<div class="row">
-				<?php echo $form->labelEx($model,'subject'); ?>
+				<?php echo $form->labelEx($model,Yii::t('site', 'Subject')."<span style='color: red;'> *</span>"); ?>
 				<?php echo $form->textField($model,'subject',array('size'=>60,'maxlength'=>128)); ?>
 				<?php echo $form->error($model,'subject'); ?>
 			</div>
 		
 			<div class="row">
-				<?php echo $form->labelEx($model,'body'); ?>
+				<?php echo $form->labelEx($model,Yii::t('site', 'Body')."<span style='color: red;'> *</span>"); ?>
 				<?php echo $form->textArea($model,'body',array('rows'=>6, 'cols'=>50)); ?>
 				<?php echo $form->error($model,'body'); ?>
 			</div>
 		
 			<?php if(CCaptcha::checkRequirements()): ?>
 			<div class="row">
-				<?php echo $form->labelEx($model,'verifyCode'); ?>
+				<?php echo $form->labelEx($model,Yii::t('site', 'Verification Code')); ?>
 				<div>
 				<?php $this->widget('CCaptcha'); ?>
 				<?php echo $form->textField($model,'verifyCode'); ?>
