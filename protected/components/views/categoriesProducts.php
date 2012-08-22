@@ -13,7 +13,9 @@
 			<p><?php echo $product->product_discharge_volume?></p>
 		</div>
 		<div class="col-right">
+			<a href="<?php echo CHtml::normalizeUrl(array('product/detail', 'product' => $product->product_id))?>">
 			<img alt="<?php echo $product->product_name?>" src="<?php echo Yii::app()->request->baseUrl . '/' . $product->product_picture?>" width="128" />
+			</a>
 		</div>
 		<?php /**?>
 		<div class="text">
