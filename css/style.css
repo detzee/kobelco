@@ -64,8 +64,8 @@ a {
 
 #col-right-header {
 	float: right;
-	width: 400px;
 	margin: 25px 0 0 0;
+	position:relative;	
 }
 
 #col-right-header .language {
@@ -1077,4 +1077,32 @@ td{
 
 #yw0_button{
 	font-weight: bold;
+}
+
+
+/** Language switcher **/
+
+.language-switcher {overflow:visible}
+
+#language-box {
+	border: 1px solid #EEE;
+	background: #FFF;
+	-webkit-box-shadow: 0 3px 6px -5px black;
+	   -moz-box-shadow: 0 3px 6px -5px black;
+	        box-shadow: 0 3px 6px -5px black;
+	z-index:11;
+	position:absolute;
+	top:4px;left:-55px;display:none;
+}
+
+#language-box a {
+	display:block;
+	text-align:left;
+	width: 100px;
+	height:30px;
+	line-height:30px;
+}
+
+#language-box a:hover {
+	background: #EEE;
 }

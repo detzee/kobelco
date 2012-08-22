@@ -7,7 +7,8 @@ class LanguageSwitcher extends CWidget {
 		$this->languages = Yii::app()->params['languages'];
 	}
 	
-	public function run() {		
+	public function run() {
+		if(!count($this->languages)) return;
 		$this->render('languageswitcher');
 	}
 }
