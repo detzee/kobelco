@@ -40,11 +40,11 @@ a {
 
 #outer_wrapper {
 	background: url("../images/top-bg.png") repeat-x;
-	height: 95px;
+	height: 115px;
 }
 
 .site-index #main_wrapper {
-	background: url("../images/banner-bg-repeat.png") repeat-x 0 95px;
+	background: url("../images/banner-bg-repeat.png") repeat-x 0 115px;
 }
 
 .site-index #content_wrapper {
@@ -53,11 +53,8 @@ a {
 
 #header {
 	background: url("../images/top-bg.png") repeat-x;
-}
-
-#header .top-header {
-	overflow: hidden;
-	height: 95px;
+	height: 115px;
+	overflow: hiddden;
 }
 
 #banner {
@@ -68,16 +65,18 @@ a {
 
 #col-right-header {
 	float: right;
-	width: 290px;
-	margin: 15px 0 0 0;
+	margin: 25px 0 0 0;
+	position: relative;
 }
 
 #col-right-header .language {
-	font-size: 11px;
 	color: #737373;
-	text-align: center;
-	float: left;
-	padding: 3px 10px 0 0;
+    float: left;
+    font-size: 11px;
+    position: relative;
+    right: 10px;
+    text-align: center;
+    top: 3px;
 }
 
 #col-right-header .language span {
@@ -117,31 +116,36 @@ a {
 }
 
 #main-menu {
-	background: url("../images/border-bottom-mainmenu.png") no-repeat scroll
-		center bottom transparent;
-	float: right;
-	height: 25px;
-	overflow: hidden;
-	padding-top: 10px;
-	width: 850px;
-	text-transform: uppercase;
-	text-align: center;
+	float: left;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 7px;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
 }
 
 #main-menu ul {
-	overflow: hidden;
-	padding-top: 3px;
-	width: 600px;
-	margin: 0 auto;
+
 }
 
 #main-menu ul li {
 	float: left;
-	font-size: 11px;
-	padding: 0 11px 5px 11px;
-	background: url("../images/menu-border.png") no-repeat 0 2px;
-	height: 23px;
+	font-size: 13px;
+	padding: 0 30px;
+	line-height: 25px;
+	height: 27px;
 }
+
+#main-menu ul li:hover{
+	border-bottom: 4px solid #ccc;
+}
+
+#main-menu ul li.active{
+	border-bottom: 4px solid #ccc;
+}
+	
 
 #main-menu ul li:first-child {
 	background: none;
@@ -152,7 +156,7 @@ a {
 }
 
 #main-menu ul li a {
-	height: 23px;
+
 	display: block
 }
 
@@ -297,10 +301,10 @@ a {
 #content .news h3 {
 	font-family: myriad-pro;
 	color: #616161;
-	font-size: 15px;
-	background: url("../images/news-icon.png") no-repeat;
+	font-size: 20px;
+	background: url("../images/news-icon.png") 0 2px no-repeat;
 	padding-left: 20px;
-	margin: 15px 0 0 0;
+	margin: 14px 0 0 0;
 }
 
 #content .news{
@@ -309,12 +313,11 @@ a {
 	position: relative;
 	width: 1036px!important;
 	left: 30px;
-	top: -15px;
 }
 
 #content .news ul li {
 	float: left;
-	font-size: 10px;
+	font-size: 14px;
 	padding: 0 5px;
 	
 }
@@ -1026,4 +1029,103 @@ td{
 #contact-form .error #ContactForm_body{
 	border: 1px solid red;
 	border-radius: 4px;
+	width: 420px;
+}
+
+#contact-form .error input{
+	border: 1px solid red;
+	border-radius: 4px;
+	height: 25px;
+	width: 420px;
+}
+
+.paragraph ul li a{
+	color: #444;
+}
+
+#my-slideshow{
+	height: 353px !important;
+}
+
+.language-switcher li{
+	float: left;
+}
+
+.language-switcher .text{
+	padding: 10px 5px 0 0;
+}
+
+.language-switcher .text a{
+	padding: 0 5px;
+}
+
+#my-slideshow img{
+	height: 353px!important;
+}
+
+#my-slideshow .bjqs-wrapper{
+	height: 353px!important;
+    overflow: hidden;
+    position: relative;
+}
+
+#random-product-in-category li h3{
+	margin: 10px 0 10px 20px;
+}
+
+#random-product-in-category li .product-name{
+	font-weight: bold;
+	margin: 0;
+	font-size: 13px;
+}
+
+#ContactForm_verifyCode{
+	width: 200px!important;
+}
+
+.buttons input{
+	cursor: pointer;
+    margin: 15px 0 0 0 !important;
+    width: 200px!important;
+}
+
+#yw0_button{
+	font-weight: bold;
+}
+
+
+/** Language switcher **/
+
+.language-switcher {overflow:visible}
+
+#language-box {
+	border: 1px solid #EEE;
+	background: #FFF;
+	-webkit-box-shadow: 0 3px 6px -5px black;
+	   -moz-box-shadow: 0 3px 6px -5px black;
+	        box-shadow: 0 3px 6px -5px black;
+	z-index:11;
+	position:absolute;
+	top:4px;left:-55px;display:none;
+}
+
+#language-box a {
+	display:block;
+	text-align:left;
+	width: 100px;
+	height:30px;
+	line-height:30px;
+}
+
+#language-box a:hover {
+	background: #EEE;
+}
+
+#random-product-in-category .col-right{
+	padding: 5px 0 0 0 !important;
+}
+
+.paragraph h3{
+	font-size: 25px;
+	margin-bottom: 15px;
 }
