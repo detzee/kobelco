@@ -1,5 +1,7 @@
 <?php
 $pageName = 'Support';
+include "include/support-menu.php";
+include "include/support-breadcrumbs.php";
 
 $page = Page::model()->find(array(
 	'condition' => "SKU = 'support' AND language = :language",
@@ -7,15 +9,14 @@ $page = Page::model()->find(array(
 ));
 	
 $this->pageTitle=Yii::app()->name .' - ' . Yii::t('site', 'Support');
-$this->breadcrumbs=array(
-	Yii::t('site', 'Support'),
-);
+
 ?>
 <div class="about-content article-content">
 
 	<div class="col-left">
 		<div class="callout-image">
 			<img width="210" src="<?php echo Yii::app()->request->baseUrl?>/images/support.jpeg" alt="Kobelco Support" />
+			<?php $this->widget('zii.widgets.CMenu', array('items'=> $supportMenuItems)) ?>
 		</div>
 	</div>
 	<div class="col-main">		

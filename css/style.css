@@ -1,6 +1,6 @@
 body {
-	background: #fafafa;
-	font-family: verdana;
+	background: #fff;
+	font-family: verdana, sans-serif;
 	margin: 0;
 }
 
@@ -154,6 +154,7 @@ a {
 
 #main-menu ul li a {
 	display: block;
+	font-family: sans-serif;
 }
 
 #main-menu ul li a:hover {
@@ -167,7 +168,7 @@ a {
 
 
 #content .list-sp {
-	margin: 15px auto;
+	margin: 30px auto 10px;
     width: 1036px;
 	clear: both;
 }
@@ -766,9 +767,11 @@ a {
 
 .category-name {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 23px;
 	line-height: 22px;
-	margin-top: 60px
+	margin-top: 60px;
+	font-family: Racing Sans One;
+	text-shadow: 2px 2px 2px #999;
 }
 
 #main-categories li {
@@ -783,8 +786,7 @@ a {
 }
 
 #content .product-list-wrapper ul li a {
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
-		8px transparent;
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
 	display: block;
 	font-size: 12px;
 	line-height: 20px;
@@ -1126,4 +1128,9 @@ td{
 	font-size: 25px;
 	margin-bottom: 15px;
 	font-weight:bold;
+}
+
+.article-content .col-left ul li.active a{
+	font-weight: bold;
+	color: #1d64B0;
 }

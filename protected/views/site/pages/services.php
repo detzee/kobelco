@@ -1,5 +1,5 @@
 <?php
-
+include "include/services-menu.php";
 $page = Page::model()->find(array(
 	'condition' => "SKU = 'services' AND language = :language",
 	'params' => array(':language' => Yii::app()->language)
@@ -15,7 +15,7 @@ $this->breadcrumbs=array(
 <div class="about-content article-content">
 
 	<div class="col-left">
-		
+		<?php $this->widget('zii.widgets.CMenu', array('items'=> $servicesMenuItems)); ?>
 	</div>
 	<div class="col-main">		
 		<div class="article-paragraph">

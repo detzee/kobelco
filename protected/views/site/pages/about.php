@@ -1,4 +1,5 @@
 <?php
+
 include "include/about-menu.php";
 $page = Page::model()->find(array(
 	'condition' => "SKU = 'about-us' AND language = :language",
