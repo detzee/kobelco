@@ -1,6 +1,11 @@
 <?php
 include "include/about-menu.php";
 
+$page = Page::model()->find(array(
+	'condition' => "SKU = 'kobelco-ads' AND language = :language",
+	'params' => array(':language' => Yii::app()->language)
+));
+
 $pageName = 'Kobelco Ads';
 	
 $this->pageTitle=Yii::app()->name .' - ' . $pageName;
@@ -15,83 +20,8 @@ include "include/about-breadcrumbs.php";
 	</div>
 	<div class="col-main">		
 		<div class="article-paragraph">
-			<h1><?php echo $pageName?></h1>
-			<p><strong>Kobelco's innovative compressor solutions are featured in major industry publications. To view one of our recent advertisements, please click on a selection below.</strong></p>
-			<p> </p>
-			<table width="720" border="0" cellspacing="0" cellpadding="10">
-			<tbody>
-			<tr>
-			<td width="350">
-			<table class="kad_table" border="0" cellspacing="7" cellpadding="0">
-			<tbody>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/kob_general.pdf">The Best Compressors for Productivity...</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/kob_general.pdf"><img src="http://kobelcocompressors.com/images/kob_general.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/kob_co2.pdf">The Best Compressor for CO2?</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/kob_co2.pdf"><img src="http://kobelcocompressors.com/images/kob_co2.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/coldscrew.pdf">Kobelco LNG BOG Compressors - Tough in Extreme Cold</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/coldscrew.pdf"><img src="http://kobelcocompressors.com/images/ad2.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/Kobelco08Ad_Flare.pdf">A Better Answer for Heavy-Duty Process Gas Service</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/Kobelco08Ad_Flare.pdf"><img src="http://kobelcocompressors.com/images/ad5.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/powerscrew.pdf">This Screw Compressor Knows How to Generate Power</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/powerscrew.pdf"><img src="http://kobelcocompressors.com/images/ad3.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			</tbody>
-			</table>
-			</td>
-			<td style="vertical-align: top;" width="350">
-			<table class="kad_table" border="0" cellspacing="7" cellpadding="0">
-			<tbody>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/kob_hybrid.pdf">Get the Smallest Footprint</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/kob_hybrid.pdf"><img src="http://kobelcocompressors.com/images/kob_hybrid.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/kob_h2.pdf">The Best Compressor for H2</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/kob_h2.pdf"><img src="http://kobelcocompressors.com/images/kob_h2.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/Kobelco08Ad-Money.pdf">Boost Fuel Gas <em>and</em> Profits</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/Kobelco08Ad-Money.pdf"><img src="http://kobelcocompressors.com/images/ad6.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			<tr>
-			<td>
-			<div class="link_pad"><a class="kad_link" href="http://kobelcocompressors.com/_pdf/ads/oilgas.pdf">Introducing the Robust Screw Compressor for Heavy-Duty Process Gas Service</a></div>
-			</td>
-			<td><a href="http://kobelcocompressors.com/_pdf/ads/oilgas.pdf"><img src="http://kobelcocompressors.com/images/ad4.jpg" border="0" alt=" - " width="144" height="187" /></a></td>
-			</tr>
-			</tbody>
-			</table>
-			</td>
-			</tr>
-			</tbody>
-			</table>
-			<p> </p>
-			<p> </p>
+			<h1><?php echo $page->name?></h1>
+				<?php echo $page->content?>
 		</div>
 	</div>
 </div>

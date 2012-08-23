@@ -3,7 +3,7 @@ $filters = array(
 	array('id' => 'product_power', 'format' => '%s kW - %s kW', 'range' => array('22,75','33,85'))
 );
 
-$attributeLabels = Product::attributeLabels();
+$attributeLabels = Product::model()->attributeLabels();
 
 /**
  * Render filter link from array
