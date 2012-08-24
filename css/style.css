@@ -935,6 +935,14 @@ a {
 	padding-left: 10px;
 }
 
+#product-detail-content .col-left ul li.active a{
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #1d64b0;
+	font-weight: bold;
+}
+
 #product-detail-content .col-left ul li a:hover {
 	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0
 		8px transparent;
@@ -1125,7 +1133,7 @@ td{
 }
 
 .paragraph h3{
-	font-size: 25px;
+	font-size: 23px;
 	margin-bottom: 15px;
 	font-weight:bold;
 }
@@ -1134,3 +1142,4 @@ td{
 	font-weight: bold;
 	color: #1d64B0;
 }
+

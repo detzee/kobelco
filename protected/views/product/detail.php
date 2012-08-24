@@ -22,6 +22,11 @@ if(is_array($images)) {
 	$mainImage = Product::DEFAULT_IMAGE;
 	$images = array();
 }
+
+$childProducts = Product::model()->findAll(array(
+	'condition' => 'parent_id = :parent_id',
+	'params' => array(':parent_id' => $product->product_id)
+));
 ?>
 <div id="product-detail-content">
 	<div class="product-detail-top-content">
@@ -46,10 +51,10 @@ if(is_array($images)) {
 			
 			<div class="list-thumbs">
 				<ul class="list-thumb">
-					<?php foreach($images as $image):?>
+					<?php foreach($childProducts as $cProduct):?>
 					<li class="item">
-						<a href="<?php echo Yii::app()->request->baseUrl ?>/images/Product-detail_10.png">
-							<img src="<?php echo Yii::app()->request->baseUrl ?>/<?php echo $image->image_file?>" width="79" height="79"/>
+						<a href="<?php echo CHtml::normalizeUrl(array('product/detail', 'product'=>$cProduct->product_id)) ?>">
+							<img src="<?php echo Yii::app()->request->baseUrl ?>/<?php echo $cProduct->product_picture ?>" width="78" height="78"/>
 						</a>
 					</li>
 					<?php endforeach?>
@@ -68,9 +73,4 @@ if(is_array($images)) {
 </div><!-- #product-detail-content -->
 
 
-<script type="text/javascript">
-$(function() {	
-	$('.list-thumb a').lightBox();
 
-});
-</script>

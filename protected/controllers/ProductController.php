@@ -53,19 +53,37 @@ class ProductController extends Controller
 			$this->redirect(array('product/index'));
 			return;
 		}
+	
 		
-		$category = Categories::model()->findByPk($product->category_id);
+		if($product->parent_id == 0){
+			$categoryId = $product->category_id;
+		}else{
+			$parentProduct = Product::model()->findByPk($product->parent_id);
+			$categoryId = $parentProduct->category_id; 
+		}
+		
+		$category = Categories::model()->findByPk($categoryId);
 		
 		$this->breadcrumbs = array(
 			Yii::t('site', 'Products') => array('product/index'),
-			$category->category_alias => array('product/list', 'category' => $category->category_id),
-			$product->product_name
+			$category->category_alias => array('product/list', 'category' => $category->category_id)
 		);
+		
+		if(isset($parentProduct)) {
+			$this->breadcrumbs[$parentProduct->product_name] = array('product/detail', 'product' => $parentProduct->product_id);
+		}
+		
+		$this->breadcrumbs[] = $product->product_name;
 		
 		$this->pageTitle = $product->product_name;
 		$product->loadImages();
 		//echo '<pre>';print_r($product);exit;
-		$this->render('detail', array(
+		if($product->parent_id == 0){
+			$viewFile = 'detail';
+		}else{
+			$viewFile = 'child-detail';
+		}
+		$this->render($viewFile, array(
 			'product' => $product
 		));
 	}
