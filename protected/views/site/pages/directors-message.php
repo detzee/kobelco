@@ -1,9 +1,9 @@
 <?php
 include "include/about-menu.php";
-$pageName = 'Director\'s Message';
+$pageName = 'About History of Kobelco';
 
 $page = Page::model()->find(array(
-	'condition' => "SKU = 'director-message' AND language = :language",
+	'condition' => "SKU = 'about-history-kobelco' AND language = :language",
 	'params' => array(':language' => Yii::app()->language)
 ));
 
