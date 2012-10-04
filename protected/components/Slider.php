@@ -5,10 +5,11 @@ class Slider extends CWidget {
 	
 	public function init() {
 		$this->images = array(
-			array('path' => '/images/slider/banner1.png','caption' => ''),
-			array('path' => '/images/slider/banner2.png','caption' => ''),
-			array('path' => '/images/slider/banner3.png','caption' => ''),
-			array('path' => '/images/slider/banner4.png','caption' => ''),
+			array('path' => '/images/slider/sliceshow1.png','caption' => ''),
+			array('path' => '/images/slider/sliceshow2.png','caption' => ''),
+			array('path' => '/images/slider/sliceshow3.png','caption' => ''),
+			array('path' => '/images/slider/sliceshow4.png','caption' => ''),
+			array('path' => '/images/slider/sliceshow5.png','caption' => ''),
 		);
 	}
 	

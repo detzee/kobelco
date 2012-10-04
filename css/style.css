@@ -32,7 +32,7 @@ a {
 }
 
 #inner_wrapper {
-	width: 1100px;
+	width: 1065px;
 	margin: 0 auto;
 	margin-bottom: 40px;
 	overflow: hidden;
@@ -65,17 +65,17 @@ a {
 #col-right-header {
 	float: right;
 	margin: 25px 0 0 0;
-	position:relative;	
+	position: relative;
 }
 
 #col-right-header .language {
 	color: #737373;
-    float: left;
-    font-size: 11px;
-    position: relative;
-    right: 10px;
-    text-align: center;
-    top: 3px;
+	float: left;
+	font-size: 11px;
+	position: relative;
+	right: 10px;
+	text-align: center;
+	top: 3px;
 }
 
 #col-right-header .language span {
@@ -117,15 +117,15 @@ a {
 
 #main-menu {
 	float: left;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    top: 10px;
-    clear: both;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	top: 10px;
+	clear: both;
 }
 
 #main-menu ul {
-
+	
 }
 
 #main-menu ul li {
@@ -136,14 +136,14 @@ a {
 	height: 27px;
 }
 
-#main-menu ul li:hover{
+#main-menu ul li:hover {
 	border-bottom: 4px solid #ccc;
 }
 
-#main-menu ul li.active{
+#main-menu ul li.active {
 	border-bottom: 4px solid #ccc;
 }
-	
+
 #main-menu ul li:first-child {
 	
 }
@@ -159,24 +159,22 @@ a {
 
 #main-menu ul li a:hover {
 	color: #444;
-
 }
 
 #main-menu li.active a {
 	font-weight: bold;
 }
 
-
 #content .list-sp {
 	margin: 30px auto 10px;
-    width: 1036px;
+	width: 1036px;
 	clear: both;
 }
 
 #content .list-sp ul {
 	margin: 0;
-    padding: 0;
-    width: 1050px;
+	padding: 0;
+	width: 1050px;
 }
 
 #content .list-sp ul li {
@@ -189,12 +187,11 @@ a {
 	margin: 0 15px 0 20px;
 }
 
-#content .list-sp ul li:last-child 
-{
+#content .list-sp ul li:last-child {
 	margin-right: 0;
 }
 
-#content .list-sp ul li:first-child{
+#content .list-sp ul li:first-child {
 	margin-left: 0;
 }
 
@@ -257,7 +254,7 @@ a {
 	margin: 0 25px 10px 15px;
 }
 
-#content .paragraph ul li:first-child{
+#content .paragraph ul li:first-child {
 	margin-left: 0;
 }
 
@@ -310,14 +307,14 @@ a {
 	background: url("../images/news-icon.png") 0 2px no-repeat;
 	padding-left: 20px;
 	margin: 14px 0 0 0;
+	width: 100px;
 }
 
-#content .news{
+#content .news {
 	border-bottom: 1px solid #dadada;
 	overflow: hidden;
 	position: relative;
-	left: 30px;
-	width: 1036px;
+	width: 1065px;
 }
 
 #content .news ul li {
@@ -332,12 +329,12 @@ a {
 
 #content .news .right {
 	line-height: 48px;
-	float: left !important;
-	width: 965px;
+	float: right !important;
+	width: 960px;
 	overflow: hidden;
 }
 
-#content .news .right ul{
+#content .news .right ul {
 	border: none;
 	margin: 0;
 	padding: 0;
@@ -345,8 +342,8 @@ a {
 	left: 0;
 }
 
-#content .news .right  ul li:last-child{
-
+#content .news .right  ul li:last-child {
+	
 }
 
 #content .news .left {
@@ -760,12 +757,11 @@ a {
 
 .article-content .article-paragraph {
 	float: right;
-	width: 890px;
+	width: 850px;
 }
 
 .menu li.active a {
 	font-weight: bold;
-
 }
 
 .category-name {
@@ -789,7 +785,8 @@ a {
 }
 
 #content .product-list-wrapper ul li a {
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
 	display: block;
 	font-size: 12px;
 	line-height: 20px;
@@ -833,7 +830,7 @@ a {
 	border-bottom: 1px solid #ddd;
 }
 
-#content .product-list-wrapper .filter_product ul li.active a{
+#content .product-list-wrapper .filter_product ul li.active a {
 	font-weight: bold;
 	color: #1d64b0;
 }
@@ -851,7 +848,7 @@ a {
 	height: 275px;
 	padding-top: 10px;
 	text-align: center;
-	width: 270px;
+	width: 255px;
 	margin: 10px 10px 15px 15px;
 }
 
@@ -938,7 +935,7 @@ a {
 	padding-left: 10px;
 }
 
-#product-detail-content .col-left ul li.active a{
+#product-detail-content .col-left ul li.active a {
 	display: block;
 	font-size: 12px;
 	line-height: 20px;
@@ -972,181 +969,185 @@ a {
 	overflow: visible;
 }
 
-#slider img{
+#slider img {
 	height: 373px;
 }
 
-.col-main.col-right{
+.col-main.col-right {
 	width: 880px;
 	float: right;
 }
 
-#related-news li a{
-	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0 8px transparent;
+#related-news li a {
+	background: url("../images/viewmore-brown-icon.png") no-repeat scroll 0
+		8px transparent;
 	display: block;
 	font-size: 12px;
 	line-height: 20px;
 	padding-left: 10px;
 }
 
-#related-news li a:hover{
-	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0 8px transparent;
+#related-news li a:hover {
+	background: url("../images/viewmore-blue-icon.png") no-repeat scroll 0
+		8px transparent;
 	display: block;
 	font-size: 12px;
 	line-height: 20px;
 	color: #1d64b0;
 }
 
-#related-news li{
+#related-news li {
 	border-bottom: 1px solid #DDDDDD;
-    padding: 5px 0;
+	padding: 5px 0;
 }
 
-#content .col-left .news-title{
+#content .col-left .news-title {
 	margin: 10px 0;
 }
 
-.news-content ul#news-list li{
+.news-content ul#news-list li {
 	border-bottom: 1px solid #ddd;
 	padding: 5px 0;
 }
 
-.news-content .news-paragraph{
+.news-content .news-paragraph {
 	float: right;
-	width: 880px;
+	width: 850px;
 }
 
-td{
+td {
 	border-bottom: 1px solid #e1e1e1;
 }
 
-#content .product-list-wrapper ul li.active a{
+#content .product-list-wrapper ul li.active a {
 	font-weight: bold;
 	color: #1d64b0;
 }
 
-#contact-form .row input{
+#contact-form .row input {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	height: 25px;
 	width: 420px;
 }
 
-#ContactForm_body{
+#ContactForm_body {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 }
 
-#contact-form .error #ContactForm_body{
+#contact-form .error #ContactForm_body {
 	border: 1px solid red;
 	border-radius: 4px;
 }
 
-#contact-form .error input{
+#contact-form .error input {
 	border: 1px solid red;
 	border-radius: 4px;
 	height: 25px;
 	width: 420px;
 }
 
-.paragraph ul li a{
+.paragraph ul li a {
 	color: #444;
 }
 
-#my-slideshow{
+#my-slideshow {
 	height: 353px !important;
 }
 
-.language-switcher li{
+.language-switcher li {
 	float: left;
 }
 
-.language-switcher .text{
+.language-switcher .text {
 	padding: 10px 5px 0 0;
 }
 
-.language-switcher .text a{
+.language-switcher .text a {
 	padding: 0 5px;
 }
 
-#my-slideshow img{
-	height: 353px!important;
+#my-slideshow img {
+	height: 353px !important;
 }
 
-#my-slideshow .bjqs-wrapper{
-	height: 353px!important;
-    overflow: hidden;
-    position: relative;
+#my-slideshow .bjqs-wrapper {
+	height: 353px !important;
+	overflow: hidden;
+	position: relative;
 }
 
-#random-product-in-category li h3{
+#random-product-in-category li h3 {
 	margin: 10px 0 10px 20px;
 }
 
-#random-product-in-category li .product-name{
+#random-product-in-category li .product-name {
 	font-weight: bold;
 	margin: 0;
 	font-size: 13px;
 }
 
-#ContactForm_verifyCode{
-	width: 200px!important;
+#ContactForm_verifyCode {
+	width: 200px !important;
 }
 
-.buttons input{
+.buttons input {
 	cursor: pointer;
-    margin: 15px 0 0 0 !important;
-    width: 200px!important;
+	margin: 15px 0 0 0 !important;
+	width: 200px !important;
 }
 
-#yw0_button{
+#yw0_button {
 	font-weight: bold;
 }
 
-
 /** Language switcher **/
-
-.language-switcher {overflow:visible}
+.language-switcher {
+	overflow: visible
+}
 
 #language-box {
 	border: 1px solid #EEE;
 	background: #FFF;
 	-webkit-box-shadow: 0 3px 6px -5px black;
-	   -moz-box-shadow: 0 3px 6px -5px black;
-	        box-shadow: 0 3px 6px -5px black;
-	z-index:11;
-	position:absolute;
-	top:4px;right:37px;display:none;
+	-moz-box-shadow: 0 3px 6px -5px black;
+	box-shadow: 0 3px 6px -5px black;
+	z-index: 11;
+	position: absolute;
+	top: 4px;
+	right: 37px;
+	display: none;
 }
 
 #language-box a {
-	display:block;
-	text-align:left;
+	display: block;
+	text-align: left;
 	width: 100px;
-	height:30px;
-	line-height:30px;
+	height: 30px;
+	line-height: 30px;
 }
 
 #language-box a:hover {
 	background: #EEE;
 }
 
-#random-product-in-category .col-right{
+#random-product-in-category .col-right {
 	padding: 5px 0 0 0 !important;
 }
 
-.paragraph h3{
+.paragraph h3 {
 	font-size: 23px;
 	margin-bottom: 10px;
-    margin-top: 25px;
-	font-weight:bold;
+	margin-top: 25px;
+	font-weight: bold;
 }
 
-.article-content .col-left ul li.active a{
+.article-content .col-left ul li.active a {
 	font-weight: bold;
 	color: #1d64B0;
 }
 
-.product-tabs-holder{
+.product-tabs-holder {
 	margin-top: 10px;
 }
