@@ -1,3 +1,5 @@
+
+
 <?php $this->pageTitle=Yii::t('site', 'Home')?>
 <?php 
 $this->widget('application.components.Slider');
@@ -13,7 +15,7 @@ $this->widget('application.components.Slider');
 	<ul>
 		<li class="welcome">
 			<h3><?php echo CHtml::link(Yii::t('site', 'Welcome to Kobelco'),array('site/page', 'view' => 'about'))?></h3>
-			<p>Adoption of High Efficiency Interior Permanent Magnet Motors (IPM Motor) than the ones of other inverter com-pressors having normal induction motor. Possible to perform much better energy saving effects by using IPM high-speed motor + specifically designed inverter than the ones of other compressors having normal induction motor.</p>
+			<p><?php echo Yii::t('site', 'Kobelco is a group of multidisciplinary industrial manufacturing multinationals with revenues of over 20 billion dollars per year, which was founded in 1905 in Tokyo, Japan, with three main business segments: iron and steel production,aluminum, and mechanical engineering. In the field of mechanical engineering, production and sales department compressor dominant position.')?></p>
 			<!--  <div class="text">
 				<?php echo CHtml::link(Yii::t('site','View more'), array('site/page', 'view' => 'about'), array('class' => 'viewmore'))?>	
 			</div> -->

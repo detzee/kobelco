@@ -1,8 +1,10 @@
 <?php
 $aboutMenuItems = array(
-		array('label'=>'Director\'s Message', 'url'=>array('/site/page', 'view'=>'directors-message')),
-		array('label'=>'Kobelco Ads', 'url'=>array('/site/page', 'view'=>'kobelco-ads')),
-		array('label'=>'Factories', 'url'=>array('/site/page', 'view'=>'factories')),	
+		array('label'=>Yii::t('site', 'About Kobelco Group'), 'url'=>array('/site/page', 'view'=>'about-kobelco-group')),
+		array('label'=>Yii::t('site', 'Kobelco\'s History'), 'url'=>array('/site/page', 'view'=>'Kobelco-history')),
+		array('label'=>Yii::t('site', 'About Kobelco Compressor VietNam'), 'url'=>array('/site/page', 'view'=>'about-kobelco-compressors-vietnam')),
+		array('label'=>Yii::t('site', 'Kobelco\'s Target'), 'url'=>array('/site/page', 'view'=>'kobelco-target')),
+		array('label'=>Yii::t('site', 'Kobelco\'s Structure'), 'url'=>array('/site/page', 'view'=>'kobelco-structure')),
 	);
 
 ?>
