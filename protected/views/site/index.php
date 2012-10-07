@@ -1,6 +1,7 @@
-
-
-<?php $this->pageTitle=Yii::t('site', 'Home')?>
+<?php 
+$pageTitle= "Công ty máy nén khí Kobelco Việt Nam";
+?>
+<?php $this->pageTitle=Yii::t('site', $pageTitle)?>
 <?php 
 $this->widget('application.components.Slider');
 ?>
