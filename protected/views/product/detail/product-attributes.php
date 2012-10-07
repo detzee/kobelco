@@ -1,14 +1,21 @@
 <?php
 $attributeLabels = $product->attributeLabels();
-$attributes = array('product_discharge_volume','product_pressure','product_voltage','product_power');
+$attributes = array(
+	'discharge_air_volume' => 'm3/min',
+	'pressure' => 'bar',
+	'voltage' => 'V/50hz, 3Phase',
+	'power' => 'KW'
+);
 ?>
-<ul class="product-attributes">
-	<li class="product-attribute">
-		<?php foreach($attributes as $attribute) :?>
-			<div class="eachrows" style="font-size: 13px;">
-			<span class="attribute-label"><?php echo $attributeLabels[$attribute].':'?></span>
-			<span class="attribute-value"><?php echo $product->$attribute?></span>
-			</div>
+<table class="table product-attributes">
+	
+		<?php foreach($attributes as $attribute => $unit) :?>
+		<tr class="product-attribute">
+			<td width="150"><span class="attribute-label"><?php echo $attributeLabels[$attribute]?></span></td>
+			
+			<td><span class="attribute-value"><?php echo $product->$attribute?> (<?php echo $unit?>)</span></td>
+		
+		</tr>
 		<?php endforeach?>
-	</li>
-</ul>
+	
+</table>

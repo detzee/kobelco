@@ -766,7 +766,7 @@ a {
 
 .category-name {
 	font-weight: bold;
-	font-size: 1.8em;
+	font-size: 23px;
 	line-height: 22px;
 	margin-top: 60px;
 	font-family: Racing Sans One;
@@ -853,7 +853,7 @@ a {
 }
 
 #content .product-list-content ul.product-attributes {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #product-detail-content ul.product-attributes li {
@@ -1151,3 +1151,14 @@ td {
 .product-tabs-holder {
 	margin-top: 10px;
 }
+
+h3.product-name {
+	margin-top: 30px
+}
+
+ul.yiiPager a:link, ul.yiiPager a:visited {
+    
+    font-weight: bold;
+    padding: 1px 6px;
+    text-decoration: none;
+}	

@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 <div class="list-sp" id="main-categories">
 	<ul>
 	<?php foreach($categories as $category) : ?>
-	<li onclick="document.location.href='<?php echo CHtml::normalizeUrl(array('product/list', 'category' => $category['category_id']))?>'">
+	<li onclick="document.location.href='<?php echo CHtml::normalizeUrl(array('product/category', 'id' => $category['category_id']))?>'">
 		<div class="col-left">			
 			<h3 class="category-name"><?php echo $category['category_name']?></h3>
 		</div>

@@ -1,7 +1,7 @@
 <?php 
 $tabs = array(
-	array('id' => 'specification', 'label' => 'Specification', 'content' => 'product_specification'),
-	array('id' => 'download', 'label' => 'Download', 'content' => 'product_download'),
+	array('id' => 'specification', 'label' => 'Specification', 'content' => 'specification'),
+	array('id' => 'download', 'label' => 'Download', 'content' => 'download'),
 );
 $i = 0;
 ?>
@@ -18,7 +18,8 @@ $i = 0;
 			<?php 
 				if($tab['id']== 'download'): ?>
 					<a href="<?php echo $product->$tab['content']?>"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/download_pdf_button.png" alt="Download" title="Download" /><?php //echo $product->product_name ?></a>
-				
+				<?php elseif($tab['id'] == 'specification'):?>
+					<?php include $tab['content'] . ".php"?>
 				<?php else:?>
 					<?php echo $product->$tab['content']?>
 				<?php endif ?>
