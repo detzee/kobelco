@@ -8,7 +8,7 @@ class CategoriesMenu extends CWidget {
 		$categories = Categories::model()->findAll();
 		
 		foreach($categories as $_category) {
-			$categoriesMenuItems[] = array('label'=>$_category->category_alias, 'url'=>array('product/list', 'category'=>$_category->category_id));
+			$categoriesMenuItems[] = array('label'=>$_category->category_alias, 'url'=>array('product/category', 'id'=>$_category->category_id));
 		}
 		
 		$this->categories = $categoriesMenuItems;

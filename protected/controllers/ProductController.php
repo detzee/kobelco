@@ -5,11 +5,11 @@ class ProductController extends Controller
 	
 	protected $categories = array();
 	
-	public function actionList()
+	public function actionCategory()
 	{	
 		$productIndex = array('product/index');
 		
-		$categoryId = Yii::app()->request->getQuery('category');
+		$categoryId = Yii::app()->request->getQuery('id');
 		
 		if(!$categoryId) {
 			$this->redirect($productIndex);
@@ -18,15 +18,61 @@ class ProductController extends Controller
 		
 		$category = Categories::model()->findByPk($categoryId);
 		
-		$products = Product::model()->findAll("category_id=:categoryId", array(":categoryId" => $categoryId));
+		$criteria = new CDbCriteria;
+		
+		$criteria->condition = "category_id=:categoryId";
+		$criteria->params = array(":categoryId" => $categoryId);
+		$criteria->group = 'product_line';
+		
+		$products = ProductIndex::model()->findAll($criteria);
 		
 		$this->breadcrumbs=array(
 			'Products'=>$productIndex,
 			$category->category_alias,
 		);
-		$this->render('list', array(			
+		$this->render('category', array(			
 			'category' => $category,
 			'products' => $products,
+		));
+	}
+	
+	public function actionLine()
+	{	
+		$productIndex = array('product/index');
+		
+		$line = Yii::app()->request->getQuery('name');
+		
+		if(!$line) {
+			$this->redirect($productIndex);
+			return;
+		}
+	
+		//$category = Categories::model()->findByPk($line);
+		
+		$criteria = new CDbCriteria;
+		
+		$criteria->condition = "product_line=:line";
+		$criteria->params = array(":line" => $line);
+		
+		$count = ProductIndex::model()->count($criteria);
+		$pages = new CPagination($count);
+		
+		$pages->pageSize = 10;
+		$pages->applyLimit($criteria);
+		
+		
+		$products = ProductIndex::model()->findAll($criteria);
+		
+		$this->pageTitle = $line;
+		
+		$this->breadcrumbs=array(
+			'Products'=>$productIndex,
+			$line,
+		);
+		$this->render('line', array(			
+			'line' => $line,
+			'products' => $products,
+			'pages' => $pages
 		));
 	}
 
@@ -47,7 +93,7 @@ class ProductController extends Controller
 			exit;
 		}
 
-		$product = Product::model()->findByPk($productId);
+		$product = ProductIndex::model()->findByPk($productId);
 		
 		if(!is_object($product)) {
 			$this->redirect(array('product/index'));
@@ -55,34 +101,28 @@ class ProductController extends Controller
 		}
 	
 		
-		if($product->parent_id == 0){
-			$categoryId = $product->category_id;
-		}else{
-			$parentProduct = Product::model()->findByPk($product->parent_id);
-			$categoryId = $parentProduct->category_id; 
-		}
+		
+		$categoryId = $product->category_id;
+		
 		
 		$category = Categories::model()->findByPk($categoryId);
 		
 		$this->breadcrumbs = array(
 			Yii::t('site', 'Products') => array('product/index'),
-			$category->category_alias => array('product/list', 'category' => $category->category_id)
+			$category->category_alias => array('product/category', 'id' => $category->category_id)
 		);
 		
-		if(isset($parentProduct)) {
-			$this->breadcrumbs[$parentProduct->product_name] = array('product/detail', 'product' => $parentProduct->product_id);
-		}
 		
-		$this->breadcrumbs[] = $product->product_name;
 		
-		$this->pageTitle = $product->product_name;
-		$product->loadImages();
+		$this->breadcrumbs[] = $product->product_line . ' ' . $product->model;
+		
+		$this->pageTitle = $product->product_line . ' ' . $product->model;
+		//$product->loadImages();
 		//echo '<pre>';print_r($product);exit;
-		if($product->parent_id == 0){
-			$viewFile = 'detail';
-		}else{
-			$viewFile = 'child-detail';
-		}
+		
+		
+		$viewFile = 'child-detail';
+		
 		$this->render($viewFile, array(
 			'product' => $product
 		));

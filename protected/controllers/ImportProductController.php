@@ -65,4 +65,21 @@ class ImportProductController extends Controller
 		$importer->importData();
 		
 	}
+	
+	/**
+	 * Create product_line from product_index table
+	 **/
+	public function actionCreateProductLine() {
+		$criteria = new CDbCriteria;
+		$criteria->select = array('product_line');
+		$criteria->group = 'product_line';
+		$products = ProductIndex::model()->findAll($criteria);
+		foreach($products as $product) {
+			$productLine = new ProductLine;
+			$productLine->attributes = array('name' => $product->product_line, 'image' => 'products/' . str_replace(' ','-', strtolower($product->product_line)) . '.jpg');
+			$productLine->save();
+		}
+		echo "Done";
+	}
+	
 }
