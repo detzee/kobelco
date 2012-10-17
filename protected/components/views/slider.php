@@ -9,7 +9,7 @@
 <script type="text/javascript">
     $(window).load(function() {      
     	$('#my-slideshow').bjqs({
-    	'width' : 999,
+    	'width' : 1000,
     	'height' : 373,
     	'showMarkers' : true,    	
     	'centerMarkers' : false,

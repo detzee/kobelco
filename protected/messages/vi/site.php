@@ -5,6 +5,7 @@ return array(
 	'Contact' => 'Liên hệ',
 	'Home'=>'Trang chủ',
 	'About us'=>'Giới thiệu',
+	'Customer' => 'Khách hàng',
 	'Products'=>'Sản phẩm',
 	'Services'=>'Dịch vụ',
 	'Support'=>'Hỗ trợ',

@@ -4,7 +4,7 @@
 				<div class="title" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Product-select-section_03.png" /></div>
 				<?php $this->widget('application.components.CategoriesMenu')?>
 			</div>
-			<?php include "list/filter.php"?>
+			<?php include "list/category-filter.php"?>
 	</div>
 	<div class="product-list-content">
 		<div class="product-title"><?php echo $category->category_name?></div>

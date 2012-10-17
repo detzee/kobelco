@@ -1,4 +1,6 @@
 <?php 
+
+
 $filters = array(
 	array('id' => 'power', 'format' => '%s WH - %s KW', 'range' => array('0,5','5,10','10,99'))
 );
@@ -11,14 +13,15 @@ $attributeLabels = ProductIndex::model()->attributeLabels();
  * @return array
  */
 function renderFilter($filter) {
+	$categoryId = Yii::app()->request->getQuery('id');
 	$menu = array();
 	foreach($filter['range'] as $range) {
 		$_range = explode(",",$range);
 		$text = sprintf($filter['format'], $_range[0], $_range[1]);
 		$link = array();
-		$link[] = 'product/line';
-		if($line = Yii::app()->request->getQuery('name')) {
-			$link['name'] = $line;
+		$link[] = 'product/category';
+		if($categoryId) {
+			$link['id'] = $categoryId;
 		}
 		$link[$filter['id']] = $range;
 		$menu[] = array('label' => $text, 'url' => $link);

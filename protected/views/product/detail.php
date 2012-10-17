@@ -1,4 +1,4 @@
-<?php 
+a<?php 
 $categoriesMenuItems = array();
 
 $categories = Categories::model()->findAll();

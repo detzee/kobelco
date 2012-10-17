@@ -10,7 +10,7 @@ $this->breadcrumbs=array(
 			<img width="210" src="<?php echo Yii::app()->request->baseUrl?>/images/ContactUs.jpg" alt="Contact Us" />
 		</div>
 	</div>
-	<div class="col-main" style="float:right;width:860px">
+	<div class="col-main" style="float:right;width:780px">
 		<h1><?php echo Yii::t('site', 'Contact us') ?></h1>
 		
 		<?php if(Yii::app()->user->hasFlash('contact')): ?>

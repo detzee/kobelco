@@ -30,7 +30,8 @@ if(is_array($images)) {
 	<div class="product-detail-top-content">
 		<div class="col-left">
 			<div class="categories">				
-			
+				<div class="title" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/Product-select-section_03.png" /></div>
+				<?php $this->widget('application.components.CategoriesMenu')?>
 			</div>
 		</div>
 		<div class="col-right">
@@ -39,9 +40,10 @@ if(is_array($images)) {
 				<img src="<?php echo $mainImage; ?>" />
 				</li>
 				<li class="product-information">
-		<div class="title"><h1><?php echo $productName?></h1></div>				
+					<div class="title"><h1><?php echo $productName?></h1></div>				
 					<div class="paragraph">
 						<?php include "detail/product-attributes.php"?>
+						<p class="description">Mô tả:</p>
 					</div>
 				</li>
 			</ul>

@@ -6,14 +6,15 @@ class CategoriesProducts extends CWidget {
 	public $products = array();
 	
 	public function init(){
-		$this->categories = Categories::model()->findAll(array('limit' => 3));
+		$this->categories = Categories::model()->findAll(array('limit' => '2'));
 		foreach($this->categories as $category) {
-			$this->products[$category->category_id] = Product::model()
-				->find(array(
-					'condition' => 'category_id = :categoryId',
-					'params' => array(':categoryId' => $category->category_id),
-					'order' => 'RAND() DESC'
-				));
+			$productLine = array('KOBELION II VS','KOBELION VX','KOBELION II SG','KOBELION II AG','Emeraude FE','Emeraude ALE');
+			$criteria = new CDbCriteria;
+			$criteria->compare('category_id', $category->category_id);
+			$criteria->addInCondition('product_line', $productLine);
+			$criteria->order = "RAND() DESC";
+			$this->products[$category->category_id] = ProductIndex::model()
+				->find($criteria);
 		}
 		
 	}

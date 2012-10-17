@@ -4,7 +4,9 @@ $this->breadcrumbs=array(
 );
 
 ?>
-
+<div class="categories-description above">
+	Above categories description (allowed HTML)
+</div>
 <div class="list-sp" id="main-categories">
 	<ul>
 	<?php foreach($categories as $category) : ?>
@@ -18,5 +20,9 @@ $this->breadcrumbs=array(
 	</li>
 	<?php endforeach?>
 </ul>
+</div>
+
+<div class="categories-description below">
+	Below categories description (allowed HTML)
 </div>
 

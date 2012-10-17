@@ -4,6 +4,7 @@ $menu = array(
 		array('label'=>Yii::t('site', 'About us'), 'url'=>array('/site/page', 'view'=>'about')),
 		array('label'=>Yii::t('site', 'Products'), 'url'=>array('/product/index')),
 		array('label'=>Yii::t('site', 'Services'), 'url'=>array('/site/page', 'view'=>'services')),
+		array('label'=>Yii::t('site', 'Customer'), 'url'=>array('/site/page', 'view'=>'customer')),
 		array('label'=>Yii::t('site', 'News'), 'url'=>array('news/index', 'view'=>'news')),
 		array('label'=>Yii::t('site', 'Support'), 'url'=>array('/site/page', 'view'=>'support')),
 		array('label'=>Yii::t('site', 'Career'), 'url'=>array('/site/page', 'view'=>'career')),
@@ -89,7 +90,13 @@ $menu = array(
 			<?php $this->widget('zii.widgets.CMenu',array(
 				'items'=> $menu
 			)); ?>
+			
+			<div class="footer-contact-information">
+				<p>Địa chỉ: Gia Lâm, Hà Nội</p>
+				<p>Hotline: ###-###-####</p>
+			</div>
 		</div>
+		
 	</div><!-- footer -->
 
 </div><!-- page -->

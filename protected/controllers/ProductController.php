@@ -24,6 +24,13 @@ class ProductController extends Controller
 		$criteria->params = array(":categoryId" => $categoryId);
 		$criteria->group = 'product_line';
 		
+		if($power = Yii::app()->request->getQuery('power')) {
+			$range = explode(",", $power);
+			$criteria->condition.= " AND (power <= :max AND power >= :min)";
+			$criteria->params[':max'] = $range[1];
+			$criteria->params[':min'] = $range[0];
+		}
+		
 		$products = ProductIndex::model()->findAll($criteria);
 		
 		$this->breadcrumbs=array(
@@ -53,6 +60,13 @@ class ProductController extends Controller
 		
 		$criteria->condition = "product_line=:line";
 		$criteria->params = array(":line" => $line);
+		
+		if($power = Yii::app()->request->getQuery('power')) {
+			$range = explode(",", $power);
+			$criteria->condition.= " AND (power <= :max AND power >= :min)";
+			$criteria->params[':max'] = $range[1];
+			$criteria->params[':min'] = $range[0];
+		}
 		
 		$count = ProductIndex::model()->count($criteria);
 		$pages = new CPagination($count);
@@ -135,10 +149,10 @@ class ProductController extends Controller
 		}	
 		$match = addcslashes($q, '%_'); // escape LIKE's special characters
 		$condition = new CDbCriteria( array(
-		    'condition' => "product_name LIKE :match",         // no quotes around :match
+		    'condition' => "product_line LIKE :match OR model LIKE :match",         // no quotes around :match
 		    'params'    => array(':match' => "%$match%")  // Aha! Wildcards go here
 		) );
-		$products = Product::model()->findAll($condition);
+		$products = ProductIndex::model()->findAll($condition);
 		$category = new stdClass; 
 		$category->category_name = Yii::t('site', 'Search result(s) for \'{q}\'', array('{q}' => $q));
 		
@@ -148,7 +162,7 @@ class ProductController extends Controller
 		
 		
 		if(count($products)) {
-			$this->render('list', array(
+			$this->render('category', array(
 				'category' => $category,
 				'products' => $products,
 			));
