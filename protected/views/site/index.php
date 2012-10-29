@@ -21,17 +21,15 @@ $this->widget('application.components.Slider');
 				<?php echo CHtml::link(Yii::t('site','View more'), array('site/page', 'view' => 'about'), array('class' => 'viewmore'))?>	
 			</div> -->
 		</li>
-		<li class="services same">
+		<li class="services">
 			<h3><?php echo CHtml::link(Yii::t('site','Services'),array('site/page','view' => 'services')) ?></h3>
-			<p>Adoption of High Efficiency Interior Permanent </p>
-			<p>Magnet Motors (IPM Motor) than the ones of other</p>
-			<p>Possible to perform much better energy saving effects by using IPM high-speed motor + specifically</p>
-			<p>Higher efficiency by minimizing energy loss thanks to adoption of built-In overhang direct-coupling construction between screw unit & motor.</p>
+			<p><?php echo Yii::t('site', 'With the motto of Customer\'s production not to be interrupted, Kobelco Compressors Vietnam always appreciated the spirit of customer service, adequate preparation of manpower and spare parts
+ready technical consulting, testing, implementation maintenance services as well as troubleshoot quickly.')?></p>
 			<!--  <div class="text">
 				<?php echo CHtml::link(Yii::t('site','View more'), array('site/page', 'view' => 'services'), array('class' => 'viewmore'))?>	
 			</div> -->
 		</li>
-		<li class="support same">
+		<li class="support">
 			<h3><?php echo CHtml::link(Yii::t('site','Support'),array('site/page','view' => 'support')) ?></h3>
 			<p>Adoption of High Efficiency Interior Permanent </p>
 			<p>Magnet Motors (IPM Motor) than the ones of other</p>

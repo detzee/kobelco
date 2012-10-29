@@ -30,6 +30,9 @@ return array(
 	'About Kobelco Compressor VietNam'=>'Giới thiệu về công ty Kobelco Compressor ViệtNam',
 	'Kobelco\'s Target'=>'Mục tiêu của công ty',
 	'Kobelco\'s Structure'=>'Cơ cấu tổ chức',
+	'With the motto of Customer\'s production not to be interrupted, Kobelco Compressors Vietnam always appreciated the spirit of customer service, adequate preparation of manpower and spare parts
+ready technical consulting, testing, implementation maintenance services as well as troubleshoot quickly.'=>'Với phương châm không để sản xuất của Khách hàng bị gián đoạn, Kobelco Compressors Việt Nam luôn đề cao tinh thần phục vụ khách hàng, chuẩn bị đầy đủ về nhân lực phụ tùng và
+kỹ thuật để sẵn sàng tư vấn, kiểm tra, thực hiện dịch vụ bảo trì cũng như khắc phục sự cố một cách nhanh nhất.',
 );
 
 ?>
