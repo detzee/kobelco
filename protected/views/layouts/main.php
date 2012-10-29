@@ -27,8 +27,8 @@ $menu = array(
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-	<link href='http://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
+	<!-- link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'-->
 	
 	<!-- endFonts -->
 	<!--[if lte IE 8]>
@@ -92,8 +92,9 @@ $menu = array(
 			)); ?>
 			
 			<div class="footer-contact-information">
-				<p>Địa chỉ: Gia Lâm, Hà Nội</p>
-				<p>Hotline: ###-###-####</p>
+				<p>Địa chỉ: #562, Nguyễn Văn Cừ, Gia Thuỵ, Long Biên Hà Nội</p>
+				<p>Tel : +84 43 944-7781&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: +84 43 944-7780</p>
+				<p>Hot-line: +84 43 944-7781 (Ext: 309)</p>
 			</div>
 		</div>
 		

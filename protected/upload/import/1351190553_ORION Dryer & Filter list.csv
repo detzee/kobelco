@@ -1,0 +1,93 @@
+model,product_line,category_id,air_processing_capacity,inlet_air_temperature,dew_point_temperature,ambient_temperature,operating_pressure,cooling_method,dimension_w,dimension_d,dimension_h,weight,pipe_connections,power_source,power_consumption,refrigerant,brand
+CRX3HD,High inlet temp. Model,Refrigerated Dryer,0.3,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,240,540,463,23,R1/2,220/1Phase/50Hz,0.48,R407,ORION
+CRX5HD,High inlet temp. Model,Refrigerated Dryer,0.7,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,255,574,550,30,R3/4,220/1Phase/50Hz,0.44,R407C,ORION
+CRX10HD,High inlet temp. Model,Refrigerated Dryer,1.2,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,255,817,619,40,R1,220/1Phase/50Hz,0.46,R407C,ORION
+CRX20HD,High inlet temp. Model,Refrigerated Dryer,3.1,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,255,817,619,46,R1,220/1Phase/50Hz,0.97,R407C,ORION
+CRX30HD,High inlet temp. Model,Refrigerated Dryer,4.6,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,305,979,930,87,R1 1/2,220/1Phase/50Hz,1.62,R407C,ORION
+CRX50HD,High inlet temp. Model,Refrigerated Dryer,7.6,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,305,979,999,92,R1 1/2,220/1Phase/50Hz,2.08,R407C,ORION
+CRX75HD,High inlet temp. Model,Refrigerated Dryer,8.8,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,380,1007,1054,108,R2,220/1Phase/50Hz,2.11,R407C,ORION
+CRX90HD,High inlet temp. Model,Refrigerated Dryer,10.7,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,470,1029,1054,145,R2,380/3Phase/50Hz,3,R407C,ORION
+CRX100HD,High inlet temp. Model,Refrigerated Dryer,14.9,10 ~ 80,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,592,1023,1229,185,R2,380/3Phase/50Hz,4.4,R407C,ORION
+CRX5D,Standard inlet temp. Modle,Refrigerated Dryer,0.54,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,240,540,463,23,R1/2,220/1Phase/50Hz,0.45,R407C,ORION
+CRX10D,Standard inlet temp. Modle,Refrigerated Dryer,1,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,255,574,550,30,R3/4,220/1Phase/50Hz,0.43,R407C,ORION
+CRX20D,Standard inlet temp. Modle,Refrigerated Dryer,2.6,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,255,817,619,40,R1,220/1Phase/50Hz,0.45,R407C,ORION
+CRX30D,Standard inlet temp. Modle,Refrigerated Dryer,4,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,255,817,619,46,R1,220/1Phase/50Hz,0.9,R407C,ORION
+CRX50D,Standard inlet temp. Modle,Refrigerated Dryer,6.4,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,305,979,930,87,R1 1/2,220/1Phase/50Hz,1.6,R407C,ORION
+CRX75D,Standard inlet temp. Modle,Refrigerated Dryer,9,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,305,979,999,92,R1 1/2,220/1Phase/50Hz,1.85,R407C,ORION
+CRX100D,Standard inlet temp. Modle,Refrigerated Dryer,12,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,380,1007,1054,108,R2,220/1Phase/50Hz,1.95,R407C,ORION
+CRX110D,Standard inlet temp. Modle,Refrigerated Dryer,13,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,470,1029,1054,145,R2,380/3Phase/50Hz,2.6,R407C,ORION
+CRX120D,Standard inlet temp. Modle,Refrigerated Dryer,13,10 ~ 50,3 ~ 10,2 ~ 43,0.39 ~ 0.98,Air cooled,592,1023,1229,185,R2,380/3Phase/50Hz,4.2,R407C,ORION
+CRX2900A-W,Heavy duty model,Refrigerated Dryer,29,10 ~ 60,10,2 ~ 45,0.29 ~ 0.98,Water cooled,802,1000,1500,278,F2 1/2,380/3Phase/50Hz,4.2,R407C,ORION
+CRX4100A-WE,Heavy duty model,Refrigerated Dryer,41,10 ~ 60,10,2 ~ 45,0.29 ~ 0.98,Water cooled,802,1000,1500,350,F3,380/3Phase/50Hz,6.8,R407C,ORION
+CRX5300A-WE,Heavy duty model,Refrigerated Dryer,53,10 ~ 60,10,2 ~ 45,0.29 ~ 0.98,Water cooled,850,1199,1500,395,F4,380/3Phase/50Hz,9.5,R407C,ORION
+CRX2300A,Heavy duty model,Refrigerated Dryer,23,10 ~ 60,10,2 ~ 45,0.29 ~ 0.98,Air cooled,802,1500,1500,323,F2 1/2,380/3Phase/50Hz,5.6,R407C,ORION
+CRX3100A-E,Heavy duty model,Refrigerated Dryer,31,10 ~ 60,10,2 ~ 45,0.29 ~ 0.98,Air cooled,802,1500,1500,385,F3,380/3Phase/50Hz,10,R407C,ORION
+QSQ10A,Small series,Heatless Dryer,0.085,0.071,-40,2 ~ 40,0.39 ~ 0.98,5 ~ 50 / no water droplets,113,260,470,7.5,Rc 3/8,220/1Phase/50Hz,0.014,,ORION
+QSQ20A,Small series,Heatless Dryer,0.17,0.142,-40,2 ~ 40,0.39 ~ 0.98,5 ~ 50 / no water droplets,113,260,560,8.5,Rc 3/8,220/1Phase/50Hz,0.028,,ORION
+QSQ35A,Small series,Heatless Dryer,0.297,0.247,-40,2 ~ 40,0.39 ~ 0.98,5 ~ 50 / no water droplets,113,260,810,11,Rc 3/8,220/1Phase/50Hz,0.05,,ORION
+QSQ80B-E,Medium series,Heatless Dryer,0.68,0.56,-40,2 ~ 40,0.39 ~ 0.98,5 ~ 50 / no water droplets,163,430,680,26.5,Rc 3/4,220/1Phase/50Hz,0.12,,ORION
+QSQ120B-E,Medium series,Heatless Dryer,1.02,0.85,-40,2 ~ 40,0.39 ~ 0.98,5 ~ 50 / no water droplets,163,430,930,34,Rc 3/4,220/1Phase/50Hz,0.17,,ORION
+QSQ180B-E,Medium series,Heatless Dryer,1.5,1.27,-40,2 ~ 40,0.39 ~ 0.98,5 ~ 50 / no water droplets,163,430,1130,43,Rc 3/4,220/1Phase/50Hz,0.26,,ORION
+QSQ270B-E,Medium series,Heatless Dryer,2.3,1.9,-40,2 ~ 40,0.39 ~ 0.98,5 ~ 50 / no water droplets,163,430,1480,53,Rc 3/4,220/1Phase/50Hz,0.4,,ORION
+QSQ420B-E,Heavy series,Heatless Dryer,4.2,3.6,-40,3 ~ 40,0.39 ~ 0.98,6 ~ 50 / no water droplets,335,589,1475,110,Rc 1,220/1Phase/50Hz,0.6,,ORION
+QSQ700B-E,Heavy series,Heatless Dryer,7,6,-40,4 ~ 40,0.39 ~ 0.98,7 ~ 50 / no water droplets,335,763,1475,156,Rc 1,220/1Phase/50Hz,1,,ORION
+QSQ1000B-E,Heavy series,Heatless Dryer,10,8.6,-40,5 ~ 40,0.39 ~ 0.98,8 ~ 50 / no water droplets,335,937,1475,202,Rc 1,220/1Phase/50Hz,1.4,,ORION
+QSQ1400B-E,Heavy series,Heatless Dryer,14,12,-40,6 ~ 40,0.39 ~ 0.98,9 ~ 50 / no water droplets,335,1111,1475,246,Rc 1,220/1Phase/50Hz,2,,ORION
+QSQ2000B-E,Heavy series,Heatless Dryer,20,17.2,-40,7 ~ 40,0.39 ~ 0.98,10 ~ 50 / no water droplets,335,1296,1475,307,Rc 1,220/1Phase/50Hz,2.8,,ORION
+QSQ2500B-E,Heavy series,Heatless Dryer,25,21.5,-40,8 ~ 40,0.39 ~ 0.98,11 ~ 50 / no water droplets,335,1470,1475,340,Rc 1,220/1Phase/50Hz,3.5,,ORION
+DSF75-AL,Drain filer,Aluminum Housing,0.35,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc 3/8,Auto drain,1,ORION,,,,
+DSF150-AL,Drain filer,Aluminum Housing,1.2,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc 1/2,Auto drain,1,ORION,,,,
+DSF200-AL,Drain filer,Aluminum Housing,1.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc 3/4,Auto drain,2,ORION,,,,
+DSF250-AL,Drain filer,Aluminum Housing,2.7,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc 1,Auto drain,2.1,ORION,,,,
+DSF400-AL,Drain filer,Aluminum Housing,3.9,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc 1,Auto drain,2.6,ORION,,,,
+DSF700-AL,Drain filer,Aluminum Housing,6.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc1 1/2,Auto drain,5,ORION,,,,
+DSF1000-AL,Drain filer,Aluminum Housing,10.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc1 1/2,Auto drain,6,ORION,,,,
+DSF1300-AL,Drain filer,Aluminum Housing,13.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc 2,Auto drain,6.5,ORION,,,,
+DSF2000-AL,Drain filer,Aluminum Housing,20,0.05 ~ 0.98,5 ~ 60,2 ~ 60,5,N/A,0.005,Rc 2,Auto drain,9,ORION,,,,
+DSF2900A-SUS,Drain filer,Stainless steel Housing,29,0.05 ~ 0.98,6 ~ 60,2 ~ 60,5,N/A,0.005,F1 1/2,Auto drain,27,ORION,,,,
+DSF3400A-SUS,Drain filer,Stainless steel Housing,34,0.05 ~ 0.98,7 ~ 60,2 ~ 60,5,N/A,0.005,F1 1/2,Auto drain,32,ORION,,,,
+DSF4100A-SUS,Drain filer,Stainless steel Housing,41,0.05 ~ 0.98,8 ~ 60,2 ~ 60,5,N/A,0.005,F1 1/2,Auto drain,32,ORION,,,,
+DSF5300A-SUS,Drain filer,Stainless steel Housing,53,0.05 ~ 0.98,9 ~ 60,2 ~ 60,5,N/A,0.005,F1 1/2,Auto drain,48,ORION,,,,
+DSF6100A-SUS,Drain filer,Stainless steel Housing,61,0.05 ~ 0.98,10 ~ 60,2 ~ 60,5,N/A,0.005,F1 1/2,Auto drain,48,ORION,,,,
+LSF75-AL,Line fiter,Aluminum Housing,0.35,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc 3/8,Auto drain,1,ORION,,,,
+LSF150-AL,Line fiter,Aluminum Housing,1.2,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc 1/2,Auto drain,1,ORION,,,,
+LSF200-AL,Line fiter,Aluminum Housing,1.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc 3/4,Auto drain,2,ORION,,,,
+LSF250-AL,Line fiter,Aluminum Housing,2.7,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc 1,Auto drain,2.1,ORION,,,,
+LSF400-AL,Line fiter,Aluminum Housing,3.9,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc 1,Auto drain,2.6,ORION,,,,
+LSF700-AL,Line fiter,Aluminum Housing,6.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc1 1/2,Auto drain,5,ORION,,,,
+LSF1000-AL,Line fiter,Aluminum Housing,10.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc1 1/2,Auto drain,6,ORION,,,,
+LSF1300-AL,Line fiter,Aluminum Housing,13.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc 2,Auto drain,6.5,ORION,,,,
+LSF2000-AL,Line fiter,Aluminum Housing,20,0.05 ~ 0.98,5 ~ 60,2 ~ 60,1,N/A,0.005,Rc 2,Auto drain,9,ORION,,,,
+LSF2900A-SUS,Line fiter,Stainless steel Housing,29,0.05 ~ 0.98,6 ~ 60,2 ~ 60,1,N/A,0.005,F1 1/2,Auto drain,27,ORION,,,,
+LSF3400A-SUS,Line fiter,Stainless steel Housing,34,0.05 ~ 0.98,7 ~ 60,2 ~ 60,1,N/A,0.005,F1 1/2,Auto drain,32,ORION,,,,
+LSF4100A-SUS,Line fiter,Stainless steel Housing,41,0.05 ~ 0.98,8 ~ 60,2 ~ 60,1,N/A,0.005,F1 1/2,Auto drain,32,ORION,,,,
+LSF5300A-SUS,Line fiter,Stainless steel Housing,53,0.05 ~ 0.98,9 ~ 60,2 ~ 60,1,N/A,0.005,F1 1/2,Auto drain,48,ORION,,,,
+LSF6100A-SUS,Drain filer,Stainless steel Housing,61,0.05 ~ 0.98,10 ~ 60,2 ~ 60,1,N/A,0.005,F1 1/2,Auto drain,48,ORION,,,,
+MSF75-AL,Mist filter,Aluminum Housing,0.35,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc 3/8,Auto drain,1,ORION,,,,
+MSF150-AL,Mist filter,Aluminum Housing,1.2,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc 1/2,Auto drain,1,ORION,,,,
+MSF200-AL,Mist filter,Aluminum Housing,1.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc 3/4,Auto drain,2,ORION,,,,
+MSF250-AL,Mist filter,Aluminum Housing,2.7,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc 1,Auto drain,2.1,ORION,,,,
+MSF400-AL,Mist filter,Aluminum Housing,3.9,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc 1,Auto drain,2.6,ORION,,,,
+MSF700-AL,Mist filter,Aluminum Housing,6.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc1 1/2,Auto drain,5,ORION,,,,
+MSF1000-AL,Mist filter,Aluminum Housing,10.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc1 1/2,Auto drain,6,ORION,,,,
+MSF1300-AL,Mist filter,Aluminum Housing,13.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc 2,Auto drain,6.5,ORION,,,,
+MSF2000-AL,Mist filter,Aluminum Housing,20,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.01,0.01,0.01,Rc 2,Auto drain,9,ORION,,,,
+MSF2900A-SUS,Mist filter,Stainless steel Housing,29,0.05 ~ 0.98,6 ~ 60,2 ~ 60,0.01,N/A,0.01,F1 1/2,Auto drain,27,ORION,,,,
+MSF3400A-SUS,Mist filter,Stainless steel Housing,34,0.05 ~ 0.98,7 ~ 60,2 ~ 60,0.01,N/A,0.01,F1 1/2,Auto drain,32,ORION,,,,
+MSF4100A-SUS,Mist filter,Stainless steel Housing,41,0.05 ~ 0.98,8 ~ 60,2 ~ 60,0.01,N/A,0.01,F1 1/2,Auto drain,32,ORION,,,,
+MSF5300A-SUS,Mist filter,Stainless steel Housing,53,0.05 ~ 0.98,9 ~ 60,2 ~ 60,0.01,N/A,0.01,F1 1/2,Auto drain,48,ORION,,,,
+MSF6100A-SUS,Mist filter,Stainless steel Housing,61,0.05 ~ 0.98,10 ~ 60,2 ~ 60,0.01,N/A,0.01,F1 1/2,Auto drain,48,ORION,,,,
+KSF75-AL,Odor Carbon filter,Aluminum Housing,0.35,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc 3/8,Auto drain,1,ORION,,,,
+KSF150-AL,Odor Carbon filter,Aluminum Housing,1.2,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc 1/2,Auto drain,1,ORION,,,,
+KSF200-AL,Odor Carbon filter,Aluminum Housing,1.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc 3/4,Auto drain,2,ORION,,,,
+KSF250-AL,Odor Carbon filter,Aluminum Housing,2.7,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc 1,Auto drain,2.1,ORION,,,,
+KSF400-AL,Odor Carbon filter,Aluminum Housing,3.9,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc 1,Auto drain,2.6,ORION,,,,
+KSF700-AL,Odor Carbon filter,Aluminum Housing,6.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc1 1/2,Auto drain,5,ORION,,,,
+KSF1000-AL,Odor Carbon filter,Aluminum Housing,10.6,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc1 1/2,Auto drain,6,ORION,,,,
+KSF1300-AL,Odor Carbon filter,Aluminum Housing,13.8,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc 2,Auto drain,6.5,ORION,,,,
+KSF2000-AL,Odor Carbon filter,Aluminum Housing,20,0.05 ~ 0.98,5 ~ 60,2 ~ 60,0.003,0.003,0.009,Rc 2,Auto drain,9,ORION,,,,
+KSF2900A-SUS,Odor Carbon filter,Stainless steel Housing,29,0.05 ~ 0.98,6 ~ 60,2 ~ 60,0.003,0.003,0.009,F1 1/2,Auto drain,27,ORION,,,,
+KSF3400A-SUS,Odor Carbon filter,Stainless steel Housing,34,0.05 ~ 0.98,7 ~ 60,2 ~ 60,0.003,0.003,0.009,F1 1/2,Auto drain,32,ORION,,,,
+KSF4100A-SUS,Odor Carbon filter,Stainless steel Housing,41,0.05 ~ 0.98,8 ~ 60,2 ~ 60,0.003,0.003,0.009,F1 1/2,Auto drain,32,ORION,,,,
+KSF5300A-SUS,Odor Carbon filter,Stainless steel Housing,53,0.05 ~ 0.98,9 ~ 60,2 ~ 60,0.003,0.003,0.009,F1 1/2,Auto drain,48,ORION,,,,
+KSF6100A-SUS,Odor Carbon filter,Stainless steel Housing,61,0.05 ~ 0.98,10 ~ 60,2 ~ 60,0.003,0.003,0.009,F1 1/2,Auto drain,48,ORION,,,,

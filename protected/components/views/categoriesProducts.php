@@ -3,7 +3,7 @@
 	
 	<li class="product-box">
 		<h3 class="category-name">
-			<a href="<?php echo CHtml::normalizeUrl(array('product/list', 'category' => $category->category_id))?>">
+			<a href="<?php echo CHtml::normalizeUrl(array('product/category', 'id' => $category->category_id))?>">
 				<?php echo $category->category_name?>
 			</a>
 		</h3>
@@ -15,7 +15,7 @@
 		</div>
 		<div class="col-right">
 			<a href="<?php echo CHtml::normalizeUrl(array('product/detail', 'product' => $product->product_id))?>">
-			<img alt="<?php echo $product->product_line?>" src="<?php echo Yii::app()->request->baseUrl . '/images/products_line/' . str_replace(" ","-",strtolower($product->product_line))?>" width="128" />
+			<img alt="<?php echo $product->product_line?>" src="<?php echo Yii::app()->request->baseUrl . '/images/products_line/' . str_replace(" ","-",strtolower($product->product_line))?>.png" width="128" />
 			</a>
 		</div>
 		<?php /**?>

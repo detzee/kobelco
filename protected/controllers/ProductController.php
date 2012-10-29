@@ -92,7 +92,7 @@ class ProductController extends Controller
 
 	public function actionIndex()
 	{		
-		$categories = Yii::app()->db->createCommand("SELECT * FROM categories")->queryAll();
+		$categories = Yii::app()->db->createCommand("SELECT * FROM categories LIMIT 3")->queryAll();
 		$this->render('index', array(
 			'categories' => $categories
 		));

@@ -118,27 +118,6 @@ class Product_Importer {
 		echo $results . " products imported.";
 	}
 	
-	public function importAccessoriesData() {
-		$results = 0;
-		$columns = implode(",", $this->_csvHeaders);
-		foreach($this->_csvData as $rowIndex => $data) {
-			foreach($data as $key => $_data) {
-				$data[$key] = is_numeric($_data)?$_data:"'$_data'";
-			}
-			$value = implode(",", $data);
-			
-			$sql = "INSERT INTO accessories_index ($columns) VALUES ($value)";
-			$command = Yii::app()->db->createCommand($sql);
-			if(count($command->execute())) {
-				$results++;
-			}
-			
-			
-		}
-		
-		echo $results . " products imported.";
-	}
-	
 	/**
 	 * Transform code to label. Example: attribute_code to Attribute code
 	 * @param string $code
